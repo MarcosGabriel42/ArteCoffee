@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pintura &#8211; Art&amp;Coffee</title>
+	<atom:link href="/product-category/pintura/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Saboreie a vida com café e arte</description>
+	<lastBuildDate>Sun, 03 Dec 2023 22:05:13 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
+	<title>Pintura &#8211; Art&amp;Coffee</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Gouache</title>
+		<link>/product/gouache/</link>
+					<comments>/product/gouache/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:05:13 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=508</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/product/gouache/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Aquarela</title>
+		<link>/product/aquarela/</link>
+					<comments>/product/aquarela/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:03:21 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=507</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/product/aquarela/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tinta a Óleo</title>
+		<link>/product/tinta-a-oleo/</link>
+					<comments>/product/tinta-a-oleo/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:02:45 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=506</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/product/tinta-a-oleo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tinta Acrílica</title>
+		<link>/product/tinta-acrilica/</link>
+					<comments>/product/tinta-acrilica/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:02:14 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=501</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/product/tinta-acrilica/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
