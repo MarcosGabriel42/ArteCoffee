@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<<<<<<< HEAD
 	xmlns:content="/artecoffee/http://purl.org/rss/1.0/modules/content/"
+=======
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -9,8 +13,13 @@
 
 <channel>
 	<title>Papeis &#8211; Art&amp;Coffee</title>
+<<<<<<< HEAD
 	<atom:link href="https://marcosgabriel42.github.io/product-category/papeis/feed/" rel="self" type="application/rss+xml" />
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<atom:link href="/product-category/papeis/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<description>Saboreie a vida com café e arte</description>
 	<lastBuildDate>Sun, 03 Dec 2023 21:59:23 +0000</lastBuildDate>
 	<language>pt-BR</language>
@@ -21,93 +30,164 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 
 <image>
+<<<<<<< HEAD
 	<url>https://marcosgabriel42.github.io/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
 	<title>Papeis &#8211; Art&amp;Coffee</title>
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<url>/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
+	<title>Papeis &#8211; Art&amp;Coffee</title>
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Papel Kraft</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/papel-kraft/</link>
 					<comments>https://marcosgabriel42.github.io/product/papel-kraft/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:59:23 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=500</guid>
+=======
+		<link>/product/papel-kraft/</link>
+					<comments>/product/papel-kraft/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:59:23 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=500</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/papel-kraft/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/papel-kraft/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Papel Vegetal</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/papel-vegetal/</link>
 					<comments>https://marcosgabriel42.github.io/product/papel-vegetal/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:58:27 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=499</guid>
+=======
+		<link>/product/papel-vegetal/</link>
+					<comments>/product/papel-vegetal/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:58:27 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=499</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/papel-vegetal/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/papel-vegetal/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Papel Canson</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/papel-canson/</link>
 					<comments>https://marcosgabriel42.github.io/product/papel-canson/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:58:01 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=498</guid>
+=======
+		<link>/product/papel-canson/</link>
+					<comments>/product/papel-canson/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:58:01 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=498</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/papel-canson/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/papel-canson/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Papel Bristol</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/papel-bristol/</link>
 					<comments>https://marcosgabriel42.github.io/product/papel-bristol/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:57:16 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=497</guid>
+=======
+		<link>/product/papel-bristol/</link>
+					<comments>/product/papel-bristol/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:57:16 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=497</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/papel-bristol/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/papel-bristol/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Papel Cartão</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/papel-cartao/</link>
 					<comments>https://marcosgabriel42.github.io/product/papel-cartao/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:56:41 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=491</guid>
+=======
+		<link>/product/papel-cartao/</link>
+					<comments>/product/papel-cartao/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:56:41 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=491</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/papel-cartao/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/papel-cartao/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		

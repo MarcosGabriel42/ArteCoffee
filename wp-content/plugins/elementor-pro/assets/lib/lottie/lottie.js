@@ -1952,7 +1952,11 @@ License: MIT
 						s.setAttribute('f-origin', fontArr[i].origin);
 						s.setAttribute('f-family', fontArr[i].fFamily);
 						s.type = "text/css";
+<<<<<<< HEAD
 						s.innerHTML = "@font-face {" + "font-family: "+fontArr[i].fFamily+"; font-style: normal; src: url(/artecoffee/'"+fontArr[i].fPath+"');}";
+=======
+						s.innerHTML = "@font-face {" + "font-family: "+fontArr[i].fFamily+"; font-style: normal; src: url('"+fontArr[i].fPath+"');}";
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 						defs.appendChild(s);
 					}
 				} else if(fontArr[i].fOrigin === 'g' || fontArr[i].origin === 1){
@@ -6054,7 +6058,11 @@ License: MIT
 		var maskId = createElementID();
 		maskElement.setAttribute('id', maskId);
 		maskElement.appendChild(rect);
+<<<<<<< HEAD
 		this.layerElement.setAttribute("clip-path", "url(/artecoffee/" + locationHref + "#"+maskId+")");
+=======
+		this.layerElement.setAttribute("clip-path", "url(" + locationHref + "#"+maskId+")");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 		defs.appendChild(maskElement);
 		this.layers = animData.layers;
@@ -6913,7 +6921,11 @@ License: MIT
 				mask.setAttribute('id',layerId+'_'+count);
 				mask.appendChild(path);
 				defs.appendChild(mask);
+<<<<<<< HEAD
 				g.setAttribute('mask','url(/artecoffee/' + locationHref + '#'+layerId+'_'+count+')');
+=======
+				g.setAttribute('mask','url(' + locationHref + '#'+layerId+'_'+count+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 				currentMasks.length = 0;
 				currentMasks.push(g);
@@ -6945,7 +6957,11 @@ License: MIT
 
 		if(count > 0){
 			this.maskElement.setAttribute('id', layerId);
+<<<<<<< HEAD
 			this.element.maskedElement.setAttribute(maskRef, "url(/artecoffee/" + locationHref + "#" + layerId + ")");
+=======
+			this.element.maskedElement.setAttribute(maskRef, "url(" + locationHref + "#" + layerId + ")");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			defs.appendChild(this.maskElement);
 		}
 		if (this.viewData.length) {
@@ -6977,7 +6993,11 @@ License: MIT
 					if(this.storedData[i].x.v < 0){
 						if(this.storedData[i].lastOperator !== 'erode'){
 							this.storedData[i].lastOperator = 'erode';
+<<<<<<< HEAD
 							this.storedData[i].elem.setAttribute('filter','url(/artecoffee/' + locationHref + '#'+this.storedData[i].filterId+')');
+=======
+							this.storedData[i].elem.setAttribute('filter','url(' + locationHref + '#'+this.storedData[i].filterId+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 						}
 						feMorph.setAttribute('radius',-this.storedData[i].x.v);
 					}else{
@@ -7474,7 +7494,11 @@ License: MIT
 			gfill.appendChild(stop);
 			stops.push(stop);
 		}
+<<<<<<< HEAD
 		pathElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(/artecoffee/' + locationHref + '#'+gradientId+')');
+=======
+		pathElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(' + locationHref + '#'+gradientId+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 		this.gf = gfill;
 		this.cst = stops;
@@ -7501,7 +7525,11 @@ License: MIT
 				opFill.appendChild(stop);
 				stops.push(stop);
 			}
+<<<<<<< HEAD
 			maskElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(/artecoffee/' + locationHref + '#'+opacityId+')');
+=======
+			maskElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(' + locationHref + '#'+opacityId+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			this.of = opFill;
 			this.ms = mask;
 			this.ost = stops;
@@ -7941,7 +7969,11 @@ License: MIT
 						gg.appendChild(this.layerElement);
 						layerElementParent = gg;
 						masker.appendChild(gg);
+<<<<<<< HEAD
 						gg.setAttribute('filter','url(/artecoffee/' + locationHref + '#' + filId + ')');
+=======
+						gg.setAttribute('filter','url(' + locationHref + '#' + filId + ')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 					}
 				} else if(this.data.td == 2) {
 					var maskGroup = createNS('mask');
@@ -7976,7 +8008,11 @@ License: MIT
 					alphaRect.setAttribute('y','0');
 					alphaRect.setAttribute('fill','#ffffff');
 					alphaRect.setAttribute('opacity','0');
+<<<<<<< HEAD
 					maskGrouper.setAttribute('filter', 'url(/artecoffee/' + locationHref + '#'+filId+')');
+=======
+					maskGrouper.setAttribute('filter', 'url(' + locationHref + '#'+filId+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 					maskGrouper.appendChild(alphaRect);
 					maskGrouper.appendChild(this.layerElement);
 					layerElementParent = maskGrouper;
@@ -8016,7 +8052,11 @@ License: MIT
 
 				if (this.checkMasks()) {
 					var cpGroup = createNS('g');
+<<<<<<< HEAD
 					cpGroup.setAttribute('clip-path','url(/artecoffee/' + locationHref + '#'+clipId + ')');
+=======
+					cpGroup.setAttribute('clip-path','url(' + locationHref + '#'+clipId + ')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 					cpGroup.appendChild(this.layerElement);
 					this.transformedElement = cpGroup;
 					if (layerElementParent) {
@@ -8025,7 +8065,11 @@ License: MIT
 						this.baseElement = this.transformedElement;
 					}
 				} else {
+<<<<<<< HEAD
 					this.layerElement.setAttribute('clip-path','url(/artecoffee/' + locationHref + '#'+clipId+')');
+=======
+					this.layerElement.setAttribute('clip-path','url(' + locationHref + '#'+clipId+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 				}
 
 			}
@@ -8061,7 +8105,11 @@ License: MIT
 			if (!this.matteElement) {
 				return;
 			}
+<<<<<<< HEAD
 			this.matteElement.setAttribute("mask", "url(/artecoffee/" + locationHref + "#" + id + ")");
+=======
+			this.matteElement.setAttribute("mask", "url(" + locationHref + "#" + id + ")");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 		}
 	};
 	function IShapeElement(){
@@ -8656,7 +8704,11 @@ This method searches for multiple shapes that affect a single element and one of
 			if (elementData.maskId) {
 				this.globalData.defs.appendChild(elementData.ms);
 				this.globalData.defs.appendChild(elementData.of);
+<<<<<<< HEAD
 				pathElement.setAttribute('mask','url(/artecoffee/' + locationHref + '#' + elementData.maskId + ')');
+=======
+				pathElement.setAttribute('mask','url(' + locationHref + '#' + elementData.maskId + ')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			}
 		}
 
@@ -9011,7 +9063,11 @@ This method searches for multiple shapes that affect a single element and one of
 			mask.appendChild(groupPath);
 			this.elem.globalData.defs.appendChild(mask);
 			var g = createNS('g');
+<<<<<<< HEAD
 			g.setAttribute('mask','url(/artecoffee/' + locationHref + '#'+id+')');
+=======
+			g.setAttribute('mask','url(' + locationHref + '#'+id+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			while (elemChildren[0]) {
 				g.appendChild(elemChildren[0]);
 			}
@@ -9437,7 +9493,11 @@ This method searches for multiple shapes that affect a single element and one of
 		}
 		if(count){
 			elem.globalData.defs.appendChild(fil);
+<<<<<<< HEAD
 			elem.layerElement.setAttribute('filter','url(/artecoffee/' + locationHref + '#'+filId+')');
+=======
+			elem.layerElement.setAttribute('filter','url(' + locationHref + '#'+filId+')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 		}
 		if (this.filters.length) {
 			elem.addRenderableComponent(this);

@@ -3601,7 +3601,11 @@ var _default = /*#__PURE__*/function (_elementorModules$Vie) {
               message: __('Unable to connect', 'elementor')
             });
           },
+<<<<<<< HEAD
           parseUrl: function parseUrl(/ArteCoffee/url) {
+=======
+          parseUrl: function parseUrl(url) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
             return url;
           } // Allow to change the url, e.g: replace placeholders like '%%template_type%%' with actual value.
         }, options);
@@ -3612,7 +3616,11 @@ var _default = /*#__PURE__*/function (_elementorModules$Vie) {
           $this.attr({
             target: '_blank',
             rel: 'opener',
+<<<<<<< HEAD
             href: settings.parseUrl(/ArteCoffee/$this.attr('href') + '&mode=popup&callback_id=' + callbackId)
+=======
+            href: settings.parseUrl($this.attr('href') + '&mode=popup&callback_id=' + callbackId)
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
           });
           elementorCommon.elements.$window.on('elementor/connect/success/' + callbackId, settings.success).on('elementor/connect/error/' + callbackId, settings.error);
         });
@@ -6609,7 +6617,11 @@ var Console = /*#__PURE__*/function () {
     key: "warn",
     value: function warn() {
       var _console;
+<<<<<<< HEAD
       var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+=======
+      var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
         args[_key] = arguments[_key];
       }

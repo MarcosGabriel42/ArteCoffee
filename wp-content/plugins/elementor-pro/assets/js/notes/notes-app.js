@@ -2356,7 +2356,11 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var PropTypes = __webpack_require__(/*! prop-types */ "../../../node_modules/prop-types/index.js");
 
 
+<<<<<<< HEAD
 function NoteContentUrl(/ArteCoffee/props) {
+=======
+function NoteContentUrl(props) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_note_content_link__WEBPACK_IMPORTED_MODULE_1__["default"], {
     href: props.token.value
   }, props.children);
@@ -6494,9 +6498,15 @@ var Note = /*#__PURE__*/function (_BaseModel) {
      */
   }, {
     key: "getURL",
+<<<<<<< HEAD
     value: function getURL(/ARTECOFFEE/) {
       var id = this.isReply() ? this.parentId : this.id;
       return this.constructor.getURL(/ARTECOFFEE/id);
+=======
+    value: function getURL() {
+      var id = this.isReply() ? this.parentId : this.id;
+      return this.constructor.getURL(id);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     }
 
     /**
@@ -6576,7 +6586,11 @@ var Note = /*#__PURE__*/function (_BaseModel) {
     }
   }, {
     key: "getURL",
+<<<<<<< HEAD
     value: function getURL(/ARTECOFFEE/id) {
+=======
+    value: function getURL(id) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       var route = window.top.$e.components.get('notes').config.route;
       return route.note_url_pattern.replace('{{NOTE_ID}}', id);
     }
@@ -7698,7 +7712,11 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 var Url = /*#__PURE__*/function (_BaseToken) {
   (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Url, _BaseToken);
   var _super = _createSuper(Url);
+<<<<<<< HEAD
   function Url(/ArteCoffee/) {
+=======
+  function Url() {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Url);
     return _super.apply(this, arguments);
   }

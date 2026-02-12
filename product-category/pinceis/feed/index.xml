@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<<<<<<< HEAD
 	xmlns:content="/artecoffee/http://purl.org/rss/1.0/modules/content/"
+=======
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -9,8 +13,13 @@
 
 <channel>
 	<title>Pinceis &#8211; Art&amp;Coffee</title>
+<<<<<<< HEAD
 	<atom:link href="https://marcosgabriel42.github.io/product-category/pinceis/feed/" rel="self" type="application/rss+xml" />
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<atom:link href="/product-category/pinceis/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<description>Saboreie a vida com café e arte</description>
 	<lastBuildDate>Sun, 03 Dec 2023 21:50:46 +0000</lastBuildDate>
 	<language>pt-BR</language>
@@ -21,127 +30,224 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 
 <image>
+<<<<<<< HEAD
 	<url>https://marcosgabriel42.github.io/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
 	<title>Pinceis &#8211; Art&amp;Coffee</title>
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<url>/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
+	<title>Pinceis &#8211; Art&amp;Coffee</title>
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Pincel de espátula</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-de-espatula/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-de-espatula/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:50:46 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=490</guid>
+=======
+		<link>/product/pincel-de-espatula/</link>
+					<comments>/product/pincel-de-espatula/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:50:46 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=490</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-de-espatula/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-de-espatula/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pincel de leque</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-de-leque/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-de-leque/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:50:22 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=489</guid>
+=======
+		<link>/product/pincel-de-leque/</link>
+					<comments>/product/pincel-de-leque/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:50:22 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=489</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-de-leque/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-de-leque/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pincel angular</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-angular/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-angular/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:49:55 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=487</guid>
+=======
+		<link>/product/pincel-angular/</link>
+					<comments>/product/pincel-angular/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:49:55 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=487</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-angular/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-angular/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pincel chato</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-chato/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-chato/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:49:26 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=486</guid>
+=======
+		<link>/product/pincel-chato/</link>
+					<comments>/product/pincel-chato/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:49:26 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=486</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-chato/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-chato/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pincel redondo</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-redondo/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-redondo/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:48:17 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=485</guid>
+=======
+		<link>/product/pincel-redondo/</link>
+					<comments>/product/pincel-redondo/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:48:17 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=485</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-redondo/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-redondo/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pincel de cerdas macias</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-de-cerdas-macias/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-de-cerdas-macias/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:47:46 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=484</guid>
+=======
+		<link>/product/pincel-de-cerdas-macias/</link>
+					<comments>/product/pincel-de-cerdas-macias/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:47:46 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=484</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-de-cerdas-macias/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-de-cerdas-macias/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pincel de cerdas duras</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/pincel-de-cerdas-duras/</link>
 					<comments>https://marcosgabriel42.github.io/product/pincel-de-cerdas-duras/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:47:17 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=476</guid>
+=======
+		<link>/product/pincel-de-cerdas-duras/</link>
+					<comments>/product/pincel-de-cerdas-duras/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:47:17 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=476</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/pincel-de-cerdas-duras/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/pincel-de-cerdas-duras/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		

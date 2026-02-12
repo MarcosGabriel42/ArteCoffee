@@ -55,8 +55,13 @@ class Module {
     if (!menuLinkUrl || !permalinkUrl) {
       return '';
     }
+<<<<<<< HEAD
     const permalinkArray = this.urlHelper.parse_url(/artecoffee/permalinkUrl),
       menuItemUrlArray = this.urlHelper.parse_url(/artecoffee/menuLinkUrl),
+=======
+    const permalinkArray = this.urlHelper.parse_url(permalinkUrl),
+      menuItemUrlArray = this.urlHelper.parse_url(menuLinkUrl),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       hasEqualUrls = _.isEqual(permalinkArray, menuItemUrlArray);
     return hasEqualUrls ? 'e-current' : '';
   }
@@ -78,13 +83,21 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = exports.UrlHelper = void 0;
 class UrlHelper {
+<<<<<<< HEAD
   parse_url(/artecoffee/url) {
+=======
+  parse_url(url) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     try {
       const {
           hostname,
           pathname,
           search
+<<<<<<< HEAD
         } = new URL(/ARTECOFFEE/url),
+=======
+        } = new URL(url),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         host = hostname.replace('www.', ''),
         trailingSlashesRegex = /^\/+|\/+$/g,
         path = pathname.replace(trailingSlashesRegex, '');

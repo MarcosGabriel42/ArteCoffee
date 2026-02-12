@@ -15,7 +15,11 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = handleParameterPollution;
 function handleParameterPollution(inputURL) {
+<<<<<<< HEAD
   const urlObject = new URL(/ARTECOFFEE/inputURL),
+=======
+  const urlObject = new URL(inputURL),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     mainDomain = urlObject.hostname,
     params = new URLSearchParams(urlObject.search),
     paramKeysToCheck = ['u']; // Can add more items if we find more problems with other social networks.
@@ -24,7 +28,11 @@ function handleParameterPollution(inputURL) {
     const paramValue = params.get(key);
     if (paramValue) {
       try {
+<<<<<<< HEAD
         const paramDomain = new URL(/ARTECOFFEE/paramValue).hostname;
+=======
+        const paramDomain = new URL(paramValue).hostname;
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         if (paramDomain !== mainDomain) {
           params.delete(key);
         }

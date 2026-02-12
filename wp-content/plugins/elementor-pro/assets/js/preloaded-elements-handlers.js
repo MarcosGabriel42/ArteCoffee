@@ -246,7 +246,11 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = handleParameterPollution;
 function handleParameterPollution(inputURL) {
+<<<<<<< HEAD
   const urlObject = new URL(/ARTECOFFEE/inputURL),
+=======
+  const urlObject = new URL(inputURL),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     mainDomain = urlObject.hostname,
     params = new URLSearchParams(urlObject.search),
     paramKeysToCheck = ['u']; // Can add more items if we find more problems with other social networks.
@@ -255,7 +259,11 @@ function handleParameterPollution(inputURL) {
     const paramValue = params.get(key);
     if (paramValue) {
       try {
+<<<<<<< HEAD
         const paramDomain = new URL(/ARTECOFFEE/paramValue).hostname;
+=======
+        const paramDomain = new URL(paramValue).hostname;
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         if (paramDomain !== mainDomain) {
           params.delete(key);
         }
@@ -3304,7 +3312,11 @@ class BaseFilterFrontendModule extends elementorModules.Module {
     return queryString;
   }
   updateURLQueryString(filterId) {
+<<<<<<< HEAD
     const currentUrl = new URL(/ARTECOFFEE/window.location.href),
+=======
+    const currentUrl = new URL(window.location.href),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       existingQueryString = currentUrl.searchParams,
       queryStringObject = this.getQueryStringInObjectForm(),
       updatedParams = new URLSearchParams(),
@@ -4596,7 +4608,11 @@ class MegaMenu extends elementorModules.frontend.handlers.NestedTabs {
     this.elements.$menuContent.removeClass('content-above');
   }
   getTabContentFilterSelector(tabIndex) {
+<<<<<<< HEAD
     return `[data-content="/artecoffee/${tabIndex}"]`;
+=======
+    return `[data-content="${tabIndex}"]`;
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   }
   activateTab(tabIndex) {
     const settings = this.getSettings(),
@@ -4807,7 +4823,11 @@ class MegaMenu extends elementorModules.frontend.handlers.NestedTabs {
           return;
         }
         $contentAreaContainer.append($mobileTitleHTML);
+<<<<<<< HEAD
         const $currentContainer = $widget.find(`.e-con[data-content="/artecoffee/${index}"]`);
+=======
+        const $currentContainer = $widget.find(`.e-con[data-content="${index}"]`);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         if ($currentContainer[0]) {
           $currentContainer.insertAfter($widget.find(`.e-n-menu-items-content > .e-collapse[data-tab="${index}"]`));
         }
@@ -8430,7 +8450,11 @@ class Base extends elementorModules.frontend.handlers.Base {
   updateWpReferers() {
     const selectors = this.getSettings('selectors'),
       wpHttpRefererInputs = this.$element.find(selectors.wpHttpRefererInputs),
+<<<<<<< HEAD
       url = new URL(/ARTECOFFEE/document.location);
+=======
+      url = new URL(document.location);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     url.searchParams.set('elementorPageId', elementorFrontend.config.post.id);
     url.searchParams.set('elementorWidgetId', this.getID());
     wpHttpRefererInputs.attr('value', url);
@@ -9593,7 +9617,11 @@ exports["default"] = PurchaseSummaryHandler;
           return html;
         },
 
+<<<<<<< HEAD
         createScriptURL(/ARTECOFFEE/scriptUrl) {
+=======
+        createScriptURL(scriptUrl) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
           return scriptUrl;
         }
 
@@ -10630,7 +10658,11 @@ exports["default"] = PurchaseSummaryHandler;
 
               case 'TrustedScriptURL':
                 {
+<<<<<<< HEAD
                   value = trustedTypesPolicy.createScriptURL(/ARTECOFFEE/value);
+=======
+                  value = trustedTypesPolicy.createScriptURL(value);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
                   break;
                 }
             }

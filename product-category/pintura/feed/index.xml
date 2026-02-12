@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<<<<<<< HEAD
 	xmlns:content="/artecoffee/http://purl.org/rss/1.0/modules/content/"
+=======
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -9,8 +13,13 @@
 
 <channel>
 	<title>Pintura &#8211; Art&amp;Coffee</title>
+<<<<<<< HEAD
 	<atom:link href="https://marcosgabriel42.github.io/product-category/pintura/feed/" rel="self" type="application/rss+xml" />
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<atom:link href="/product-category/pintura/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<description>Saboreie a vida com café e arte</description>
 	<lastBuildDate>Sun, 03 Dec 2023 22:05:13 +0000</lastBuildDate>
 	<language>pt-BR</language>
@@ -21,76 +30,134 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 
 <image>
+<<<<<<< HEAD
 	<url>https://marcosgabriel42.github.io/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
 	<title>Pintura &#8211; Art&amp;Coffee</title>
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<url>/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
+	<title>Pintura &#8211; Art&amp;Coffee</title>
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Gouache</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/gouache/</link>
 					<comments>https://marcosgabriel42.github.io/product/gouache/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 22:05:13 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=508</guid>
+=======
+		<link>/product/gouache/</link>
+					<comments>/product/gouache/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:05:13 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=508</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/gouache/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/gouache/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Aquarela</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/aquarela/</link>
 					<comments>https://marcosgabriel42.github.io/product/aquarela/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 22:03:21 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=507</guid>
+=======
+		<link>/product/aquarela/</link>
+					<comments>/product/aquarela/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:03:21 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=507</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/aquarela/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/aquarela/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Tinta a Óleo</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/tinta-a-oleo/</link>
 					<comments>https://marcosgabriel42.github.io/product/tinta-a-oleo/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 22:02:45 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=506</guid>
+=======
+		<link>/product/tinta-a-oleo/</link>
+					<comments>/product/tinta-a-oleo/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:02:45 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=506</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/tinta-a-oleo/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/tinta-a-oleo/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Tinta Acrílica</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/tinta-acrilica/</link>
 					<comments>https://marcosgabriel42.github.io/product/tinta-acrilica/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 22:02:14 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=501</guid>
+=======
+		<link>/product/tinta-acrilica/</link>
+					<comments>/product/tinta-acrilica/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:02:14 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=501</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/tinta-acrilica/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/tinta-acrilica/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		

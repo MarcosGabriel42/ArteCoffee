@@ -243,7 +243,11 @@
           return html;
         },
 
+<<<<<<< HEAD
         createScriptURL(/ARTECOFFEE/scriptUrl) {
+=======
+        createScriptURL(scriptUrl) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
           return scriptUrl;
         }
 
@@ -1280,7 +1284,11 @@
 
               case 'TrustedScriptURL':
                 {
+<<<<<<< HEAD
                   value = trustedTypesPolicy.createScriptURL(/ARTECOFFEE/value);
+=======
+                  value = trustedTypesPolicy.createScriptURL(value);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
                   break;
                 }
             }

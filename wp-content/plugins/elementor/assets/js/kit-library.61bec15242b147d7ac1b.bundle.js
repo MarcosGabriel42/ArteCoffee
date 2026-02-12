@@ -648,7 +648,11 @@ function ConnectDialog(props) {
       error: function error() {
         return props.onError(__('Unable to connect', 'elementor'));
       },
+<<<<<<< HEAD
       parseUrl: function parseUrl(/ArteCoffee/url) {
+=======
+      parseUrl: function parseUrl(url) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         return url.replace('%%page%%', props.pageId);
       }
     });
@@ -1195,9 +1199,15 @@ exports["default"] = KitAlreadyAppliedDialog;
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 var _appUi = __webpack_require__(/*! @elementor/app-ui */ "@elementor/app-ui");
 function KitAlreadyAppliedDialog(props) {
+<<<<<<< HEAD
   var getRemoveKitUrl = function getRemoveKitUrl(/ArteCoffee/) {
     var elementorToolsUrl = elementorAppConfig['import-export'].tools_url;
     var url = new URL(/ARTECOFFEE/elementorToolsUrl);
+=======
+  var getRemoveKitUrl = function getRemoveKitUrl() {
+    var elementorToolsUrl = elementorAppConfig['import-export'].tools_url;
+    var url = new URL(elementorToolsUrl);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     url.searchParams.append('referrer_kit', props.id);
     url.hash = 'tab-import-export-kit';
     return url.toString();
@@ -1208,7 +1218,11 @@ function KitAlreadyAppliedDialog(props) {
     approveButtonText: __('Remove existing Kit', 'elementor'),
     approveButtonColor: "primary",
     approveButtonOnClick: function approveButtonOnClick() {
+<<<<<<< HEAD
       return location.href = getRemoveKitUrl(/ArteCoffee/);
+=======
+      return location.href = getRemoveKitUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     },
     dismissButtonText: __('Apply anyway', 'elementor'),
     dismissButtonOnClick: props.dismissButtonOnClick,
@@ -2138,7 +2152,11 @@ function useAddKitPromotionUTM(promotionUrl, kitId, kitTitle) {
   }
   var url;
   try {
+<<<<<<< HEAD
     url = new URL(/ARTECOFFEE/promotionUrl);
+=======
+    url = new URL(promotionUrl);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   } catch (e) {
     return '';
   }
@@ -4337,7 +4355,11 @@ function useHeaderButtons(id, kitName) {
  * @param {*} data
  * @return {null|string} Preview URL
  */
+<<<<<<< HEAD
 function usePreviewUrl(/ArteCoffee/data) {
+=======
+function usePreviewUrl(data) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   var location = (0, _router.useLocation)();
   return (0, _react.useMemo)(function () {
     var _location$pathname$sp, _data$documents$find;
@@ -4366,7 +4388,11 @@ function Preview(props) {
     isIframeLoading = _useState2[0],
     setIsIframeLoading = _useState2[1];
   var headersButtons = useHeaderButtons(props.id, data && data.title);
+<<<<<<< HEAD
   var previewUrl = usePreviewUrl(/ArteCoffee/data);
+=======
+  var previewUrl = usePreviewUrl(data);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   var _useState3 = (0, _react.useState)('desktop'),
     _useState4 = (0, _slicedToArray2.default)(_useState3, 2),
     activeDevice = _useState4[0],

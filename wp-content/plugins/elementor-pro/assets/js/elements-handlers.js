@@ -445,7 +445,11 @@ class BaseFilterFrontendModule extends elementorModules.Module {
     return queryString;
   }
   updateURLQueryString(filterId) {
+<<<<<<< HEAD
     const currentUrl = new URL(/ARTECOFFEE/window.location.href),
+=======
+    const currentUrl = new URL(window.location.href),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       existingQueryString = currentUrl.searchParams,
       queryStringObject = this.getQueryStringInObjectForm(),
       updatedParams = new URLSearchParams(),

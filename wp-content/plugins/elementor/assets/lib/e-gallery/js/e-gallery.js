@@ -633,7 +633,11 @@ function () {
       var $overlay;
 
       if (!this.settings.lazyLoad) {
+<<<<<<< HEAD
         $image.css('background-image', 'url(/artecoffee/' + itemData.thumbnail + ')');
+=======
+        $image.css('background-image', 'url(' + itemData.thumbnail + ')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       }
 
       if (this.settings.overlay) {
@@ -736,7 +740,11 @@ function () {
           image.onload = resolve;
         });
         promise.then(function () {
+<<<<<<< HEAD
           $item.find(_this6.settings.selectors.image).css('background-image', 'url(/artecoffee/"' + itemData.thumbnail + '")').addClass(_this6.getItemClass(_this6.settings.classes.imageLoaded));
+=======
+          $item.find(_this6.settings.selectors.image).css('background-image', 'url("' + itemData.thumbnail + '")').addClass(_this6.getItemClass(_this6.settings.classes.imageLoaded));
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
           _this6.loadedItemsCount++;
 
           if (_this6.loadedItemsCount === _this6.settings.items.length) {
@@ -782,7 +790,11 @@ function () {
           items[index].width = $image.data('width');
           items[index].height = $image.data('height');
         } else {
+<<<<<<< HEAD
           $image.css('background-image', "url(/artecoffee/\"".concat($image.data('thumbnail'), "\")"));
+=======
+          $image.css('background-image', "url(\"".concat($image.data('thumbnail'), "\")"));
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         }
       });
       this.settings.items = items;

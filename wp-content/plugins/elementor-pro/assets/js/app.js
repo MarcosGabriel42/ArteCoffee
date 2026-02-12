@@ -869,7 +869,11 @@ var getLocation = function getLocation(source) {
 
 
   if (!pathname && href && canUseDOM) {
+<<<<<<< HEAD
     var url = new URL(/ARTECOFFEE/href);
+=======
+    var url = new URL(href);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     pathname = url.pathname;
   }
 
@@ -3798,7 +3802,11 @@ function Import() {
 function readFile(file) {
   return new Promise(resolve => {
     const fileReader = new FileReader();
+<<<<<<< HEAD
     fileReader.readAsDataURL(/ARTECOFFEE/file);
+=======
+    fileReader.readAsDataURL(file);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     fileReader.onload = event => {
       // Replace the mime type that prepended to the base64 with empty string and return a
       // resolved promise only with the base64 string.

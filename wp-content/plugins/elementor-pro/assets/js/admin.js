@@ -1060,7 +1060,11 @@ class _default extends elementorModules.ViewModule {
     } = this.elements;
     $button.on('click', event => {
       event.preventDefault();
+<<<<<<< HEAD
       this.testKitUrl(/ArteCoffee/);
+=======
+      this.testKitUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     });
     $kitIdField.on('change', () => {
       this.setState('clear');
@@ -1081,7 +1085,11 @@ class _default extends elementorModules.ViewModule {
       }
     }
   }
+<<<<<<< HEAD
   testKitUrl(/ArteCoffee/) {
+=======
+  testKitUrl() {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     this.setState('loading');
     const self = this,
       kitID = this.elements.$kitIdField.val();

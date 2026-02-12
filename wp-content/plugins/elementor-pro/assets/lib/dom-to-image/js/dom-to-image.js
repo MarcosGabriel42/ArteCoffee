@@ -115,7 +115,11 @@
 	function toPng( node, options ) {
 		return draw( node, options || {} )
 			.then( function ( canvas ) {
+<<<<<<< HEAD
 				return canvas.toDataURL(/ARTECOFFEE/);
+=======
+				return canvas.toDataURL();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			} );
 	}
 
@@ -128,7 +132,11 @@
 		options = options || {};
 		return draw( node, options )
 			.then( function ( canvas ) {
+<<<<<<< HEAD
 				return canvas.toDataURL(/ARTECOFFEE/ 'image/jpeg', options.quality || 1.0 );
+=======
+				return canvas.toDataURL( 'image/jpeg', options.quality || 1.0 );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			} );
 	}
 
@@ -195,7 +203,11 @@
 			} );
 
 		function makeNodeCopy( node ) {
+<<<<<<< HEAD
 			if ( node instanceof HTMLCanvasElement ) return util.makeImage( node.toDataURL(/ARTECOFFEE/) );
+=======
+			if ( node instanceof HTMLCanvasElement ) return util.makeImage( node.toDataURL() );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			return node.cloneNode( false );
 		}
 
@@ -405,13 +417,21 @@
 			return mimes()[ extension ] || '';
 		}
 
+<<<<<<< HEAD
 		function isDataUrl(/ArteCoffee/ url ) {
+=======
+		function isDataUrl( url ) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			return url.search( /^(data:)/ ) !== -1;
 		}
 
 		function toBlob( canvas ) {
 			return new Promise( function ( resolve ) {
+<<<<<<< HEAD
 				var binaryString = window.atob( canvas.toDataURL(/ARTECOFFEE/).split( ',' )[ 1 ] );
+=======
+				var binaryString = window.atob( canvas.toDataURL().split( ',' )[ 1 ] );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 				var length = binaryString.length;
 				var binaryArray = new Uint8Array( length );
 
@@ -433,7 +453,11 @@
 			return toBlob( canvas );
 		}
 
+<<<<<<< HEAD
 		function resolveUrl(/ArteCoffee/ url, baseUrl ) {
+=======
+		function resolveUrl( url, baseUrl ) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			var doc = document.implementation.createHTMLDocument();
 			var base = doc.createElement( 'base' );
 			doc.head.appendChild( base );
@@ -512,7 +536,11 @@
 						var content = encoder.result.split( /,/ )[ 1 ];
 						resolve( content );
 					};
+<<<<<<< HEAD
 					encoder.readAsDataURL(/ARTECOFFEE/ request.response );
+=======
+					encoder.readAsDataURL( request.response );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 				}
 
 				function timeout() {
@@ -530,7 +558,11 @@
 			} );
 		}
 
+<<<<<<< HEAD
 		function dataAsUrl(/ArteCoffee/ content, type ) {
+=======
+		function dataAsUrl( content, type ) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			return 'data:' + type + ';base64,' + content;
 		}
 
@@ -600,18 +632,30 @@
 				result.push( match[ 1 ] );
 			}
 			return result.filter( function ( url ) {
+<<<<<<< HEAD
 				return ! util.isDataUrl(/ArteCoffee/ url );
+=======
+				return ! util.isDataUrl( url );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			} );
 		}
 
 		function inline( string, url, baseUrl, get ) {
 			return Promise.resolve( url )
 				.then( function ( url ) {
+<<<<<<< HEAD
 					return baseUrl ? util.resolveUrl(/ArteCoffee/ url, baseUrl ) : url;
 				} )
 				.then( get || util.getAndEncode )
 				.then( function ( data ) {
 					return util.dataAsUrl(/ArteCoffee/ data, util.mimeType( url ) );
+=======
+					return baseUrl ? util.resolveUrl( url, baseUrl ) : url;
+				} )
+				.then( get || util.getAndEncode )
+				.then( function ( data ) {
+					return util.dataAsUrl( data, util.mimeType( url ) );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 				} )
 				.then( function ( dataUrl ) {
 					return string.replace( urlAsRegex( url ), '$1' + dataUrl + '$3' );
@@ -723,12 +767,20 @@
 			};
 
 			function inline( get ) {
+<<<<<<< HEAD
 				if ( util.isDataUrl(/ArteCoffee/ element.src ) ) return Promise.resolve();
+=======
+				if ( util.isDataUrl( element.src ) ) return Promise.resolve();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 				return Promise.resolve( element.src )
 					.then( get || util.getAndEncode )
 					.then( function ( data ) {
+<<<<<<< HEAD
 						return util.dataAsUrl(/ArteCoffee/ data, util.mimeType( element.src ) );
+=======
+						return util.dataAsUrl( data, util.mimeType( element.src ) );
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 					} )
 					.then( function ( dataUrl ) {
 						return new Promise( function ( resolve, reject ) {

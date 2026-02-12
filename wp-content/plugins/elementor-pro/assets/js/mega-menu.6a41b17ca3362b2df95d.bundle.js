@@ -285,7 +285,11 @@ class MegaMenu extends elementorModules.frontend.handlers.NestedTabs {
     this.elements.$menuContent.removeClass('content-above');
   }
   getTabContentFilterSelector(tabIndex) {
+<<<<<<< HEAD
     return `[data-content="/artecoffee/${tabIndex}"]`;
+=======
+    return `[data-content="${tabIndex}"]`;
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   }
   activateTab(tabIndex) {
     const settings = this.getSettings(),
@@ -496,7 +500,11 @@ class MegaMenu extends elementorModules.frontend.handlers.NestedTabs {
           return;
         }
         $contentAreaContainer.append($mobileTitleHTML);
+<<<<<<< HEAD
         const $currentContainer = $widget.find(`.e-con[data-content="/artecoffee/${index}"]`);
+=======
+        const $currentContainer = $widget.find(`.e-con[data-content="${index}"]`);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         if ($currentContainer[0]) {
           $currentContainer.insertAfter($widget.find(`.e-n-menu-items-content > .e-collapse[data-tab="${index}"]`));
         }

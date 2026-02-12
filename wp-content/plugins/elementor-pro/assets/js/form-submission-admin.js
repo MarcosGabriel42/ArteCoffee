@@ -789,7 +789,11 @@ var getLocation = function getLocation(source) {
 
 
   if (!pathname && href && canUseDOM) {
+<<<<<<< HEAD
     var url = new URL(/ARTECOFFEE/href);
+=======
+    var url = new URL(href);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     pathname = url.pathname;
   }
 
@@ -3194,7 +3198,11 @@ exports["default"] = Url;
 var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 var _index = __webpack_require__(/*! ./index */ "../modules/forms/submissions/assets/js/admin/components/submission-value/index.js");
 var _text = _interopRequireDefault(__webpack_require__(/*! ./text */ "../modules/forms/submissions/assets/js/admin/components/submission-value/text.js"));
+<<<<<<< HEAD
 function Url(/ArteCoffee/props) {
+=======
+function Url(props) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   return /*#__PURE__*/_react.default.createElement(_text.default, {
     value: props.value,
     isEditMode: props.isEditMode,
@@ -5289,7 +5297,11 @@ exports["default"] = downloadBlob;
 function downloadBlob(blob) {
   let filename = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
   const link = document.createElement('a');
+<<<<<<< HEAD
   link.setAttribute('href', URL.createObjectURL(/ARTECOFFEE/blob));
+=======
+  link.setAttribute('href', URL.createObjectURL(blob));
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   link.style.visibility = 'hidden';
   if (filename) {
     link.setAttribute('download', filename);

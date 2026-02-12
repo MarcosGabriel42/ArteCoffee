@@ -44,12 +44,20 @@
 <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="78" y="43" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M78 43H115.687V68H78V43Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask0)">
+=======
+<g mask="url(#mask0)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="77.3535" y="42.8481" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="77" y="42" width="41" height="27">
 <rect x="77.3535" y="42.8481" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask1)">
+=======
+<g mask="url(#mask1)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M123.588 71.1911C123.588 71.1911 113.151 51.3424 105.253 49.7305C97.3549 48.1186 94.2614 63.7362 89.5351 61.6648C88.6572 61.2801 83.8176 55.7863 79.9102 57.3276C77.0997 58.4362 71.1094 71.2637 71.1094 71.2637H123.588V71.1911Z" fill="#F8F9FA"/>
 <path d="M89.0631 56.0466C89.9716 56.0466 90.7082 55.3191 90.7082 54.4217C90.7082 53.5244 89.9716 52.7969 89.0631 52.7969C88.1545 52.7969 87.418 53.5244 87.418 54.4217C87.418 55.3191 88.1545 56.0466 89.0631 56.0466Z" fill="#F8F9FA"/>
 </g>
@@ -57,12 +65,20 @@
 <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="78" y="99" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M78 99H115.687V124H78V99Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask2)">
+=======
+<g mask="url(#mask2)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="77.3535" y="98.8481" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="77" y="98" width="41" height="27">
 <rect x="77.3535" y="98.8481" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask3)">
+=======
+<g mask="url(#mask3)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M123.588 127.191C123.588 127.191 113.151 107.342 105.253 105.73C97.3549 104.119 94.2614 119.736 89.5351 117.665C88.6572 117.28 83.8176 111.786 79.9102 113.328C77.0997 114.436 71.1094 127.264 71.1094 127.264H123.588V127.191Z" fill="#F8F9FA"/>
 <path d="M89.0631 112.047C89.9716 112.047 90.7082 111.319 90.7082 110.422C90.7082 109.524 89.9716 108.797 89.0631 108.797C88.1545 108.797 87.418 109.524 87.418 110.422C87.418 111.319 88.1545 112.047 89.0631 112.047Z" fill="#F8F9FA"/>
 </g>
@@ -70,12 +86,20 @@
 <mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="78" y="155" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M78 155H115.687V180H78V155Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask4)">
+=======
+<g mask="url(#mask4)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="77.3535" y="154.848" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask5" mask-type="alpha" maskUnits="userSpaceOnUse" x="77" y="154" width="41" height="27">
 <rect x="77.3535" y="154.848" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask5)">
+=======
+<g mask="url(#mask5)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M123.588 183.191C123.588 183.191 113.151 163.342 105.253 161.73C97.3549 160.119 94.2614 175.736 89.5351 173.665C88.6572 173.28 83.8176 167.786 79.9102 169.328C77.0997 170.436 71.1094 183.264 71.1094 183.264H123.588V183.191Z" fill="#F8F9FA"/>
 <path d="M89.0631 168.047C89.9716 168.047 90.7082 167.319 90.7082 166.422C90.7082 165.524 89.9716 164.797 89.0631 164.797C88.1545 164.797 87.418 165.524 87.418 166.422C87.418 167.319 88.1545 168.047 89.0631 168.047Z" fill="#F8F9FA"/>
 </g>
@@ -83,12 +107,20 @@
 <mask id="mask6" mask-type="alpha" maskUnits="userSpaceOnUse" x="78" y="211" width="38" height="11">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M78 211H116V222H78V211Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask6)">
+=======
+<g mask="url(#mask6)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="77.3535" y="210.848" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask7" mask-type="alpha" maskUnits="userSpaceOnUse" x="77" y="210" width="41" height="27">
 <rect x="77.3535" y="210.848" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask7)">
+=======
+<g mask="url(#mask7)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M123.588 239.191C123.588 239.191 113.151 219.342 105.253 217.73C97.3549 216.119 94.2614 231.736 89.5351 229.665C88.6572 229.28 83.8176 223.786 79.9102 225.328C77.0997 226.436 71.1094 239.264 71.1094 239.264H123.588V239.191Z" fill="#F8F9FA"/>
 <path d="M89.0631 224.047C89.9716 224.047 90.7082 223.319 90.7082 222.422C90.7082 221.524 89.9716 220.797 89.0631 220.797C88.1545 220.797 87.418 221.524 87.418 222.422C87.418 223.319 88.1545 224.047 89.0631 224.047Z" fill="#F8F9FA"/>
 </g>
@@ -96,12 +128,20 @@
 <mask id="mask8" mask-type="alpha" maskUnits="userSpaceOnUse" x="124" y="211" width="38" height="11">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M124 211H162V222H124V211Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask8)">
+=======
+<g mask="url(#mask8)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="123.354" y="210.848" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask9" mask-type="alpha" maskUnits="userSpaceOnUse" x="123" y="210" width="41" height="27">
 <rect x="123.354" y="210.848" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask9)">
+=======
+<g mask="url(#mask9)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M169.588 239.191C169.588 239.191 159.151 219.342 151.253 217.73C143.355 216.119 140.261 231.736 135.535 229.665C134.657 229.28 129.818 223.786 125.91 225.328C123.1 226.436 117.109 239.264 117.109 239.264H169.588V239.191Z" fill="#F8F9FA"/>
 <path d="M135.063 224.047C135.972 224.047 136.708 223.319 136.708 222.422C136.708 221.524 135.972 220.797 135.063 220.797C134.155 220.797 133.418 221.524 133.418 222.422C133.418 223.319 134.155 224.047 135.063 224.047Z" fill="#F8F9FA"/>
 </g>
@@ -109,12 +149,20 @@
 <mask id="mask10" mask-type="alpha" maskUnits="userSpaceOnUse" x="170" y="211" width="38" height="11">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M170 211H208V222H170V211Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask10)">
+=======
+<g mask="url(#mask10)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="169.354" y="210.848" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask11" mask-type="alpha" maskUnits="userSpaceOnUse" x="169" y="210" width="41" height="27">
 <rect x="169.354" y="210.848" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask11)">
+=======
+<g mask="url(#mask11)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M215.588 239.191C215.588 239.191 205.151 219.342 197.253 217.73C189.355 216.119 186.261 231.736 181.535 229.665C180.657 229.28 175.818 223.786 171.91 225.328C169.1 226.436 163.109 239.264 163.109 239.264H215.588V239.191Z" fill="#F8F9FA"/>
 <path d="M181.063 224.047C181.972 224.047 182.708 223.319 182.708 222.422C182.708 221.524 181.972 220.797 181.063 220.797C180.155 220.797 179.418 221.524 179.418 222.422C179.418 223.319 180.155 224.047 181.063 224.047Z" fill="#F8F9FA"/>
 </g>
@@ -122,12 +170,20 @@
 <mask id="mask12" mask-type="alpha" maskUnits="userSpaceOnUse" x="170" y="43" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M170 43H207.687V68H170V43Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask12)">
+=======
+<g mask="url(#mask12)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="169.354" y="42.8481" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask13" mask-type="alpha" maskUnits="userSpaceOnUse" x="169" y="42" width="41" height="27">
 <rect x="169.354" y="42.8481" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask13)">
+=======
+<g mask="url(#mask13)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M215.588 71.1911C215.588 71.1911 205.151 51.3424 197.253 49.7305C189.355 48.1186 186.261 63.7362 181.535 61.6648C180.657 61.2801 175.818 55.7863 171.91 57.3276C169.1 58.4362 163.109 71.2637 163.109 71.2637H215.588V71.1911Z" fill="#F8F9FA"/>
 <path d="M181.063 56.0466C181.972 56.0466 182.708 55.3191 182.708 54.4217C182.708 53.5244 181.972 52.7969 181.063 52.7969C180.155 52.7969 179.418 53.5244 179.418 54.4217C179.418 55.3191 180.155 56.0466 181.063 56.0466Z" fill="#F8F9FA"/>
 </g>
@@ -135,12 +191,20 @@
 <mask id="mask14" mask-type="alpha" maskUnits="userSpaceOnUse" x="170" y="99" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M170 99H207.687V124H170V99Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask14)">
+=======
+<g mask="url(#mask14)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="169.354" y="98.8481" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask15" mask-type="alpha" maskUnits="userSpaceOnUse" x="169" y="98" width="41" height="27">
 <rect x="169.354" y="98.8481" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask15)">
+=======
+<g mask="url(#mask15)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M215.588 127.191C215.588 127.191 205.151 107.342 197.253 105.73C189.355 104.119 186.261 119.736 181.535 117.665C180.657 117.28 175.818 111.786 171.91 113.328C169.1 114.436 163.109 127.264 163.109 127.264H215.588V127.191Z" fill="#F8F9FA"/>
 <path d="M181.063 112.047C181.972 112.047 182.708 111.319 182.708 110.422C182.708 109.524 181.972 108.797 181.063 108.797C180.155 108.797 179.418 109.524 179.418 110.422C179.418 111.319 180.155 112.047 181.063 112.047Z" fill="#F8F9FA"/>
 </g>
@@ -148,12 +212,20 @@
 <mask id="mask16" mask-type="alpha" maskUnits="userSpaceOnUse" x="170" y="155" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M170 155H207.687V180H170V155Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask16)">
+=======
+<g mask="url(#mask16)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="169.354" y="154.848" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask17" mask-type="alpha" maskUnits="userSpaceOnUse" x="169" y="154" width="41" height="27">
 <rect x="169.354" y="154.848" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask17)">
+=======
+<g mask="url(#mask17)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M215.588 183.191C215.588 183.191 205.151 163.342 197.253 161.73C189.355 160.119 186.261 175.736 181.535 173.665C180.657 173.28 175.818 167.786 171.91 169.328C169.1 170.436 163.109 183.264 163.109 183.264H215.588V183.191Z" fill="#F8F9FA"/>
 <path d="M181.063 168.047C181.972 168.047 182.708 167.319 182.708 166.422C182.708 165.524 181.972 164.797 181.063 164.797C180.155 164.797 179.418 165.524 179.418 166.422C179.418 167.319 180.155 168.047 181.063 168.047Z" fill="#F8F9FA"/>
 </g>
@@ -161,12 +233,20 @@
 <mask id="mask18" mask-type="alpha" maskUnits="userSpaceOnUse" x="124" y="43" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M124 43H161.687V68H124V43Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask18)">
+=======
+<g mask="url(#mask18)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="123.354" y="42.8481" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask19" mask-type="alpha" maskUnits="userSpaceOnUse" x="123" y="42" width="41" height="27">
 <rect x="123.354" y="42.8481" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask19)">
+=======
+<g mask="url(#mask19)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M169.588 71.1911C169.588 71.1911 159.151 51.3424 151.253 49.7305C143.355 48.1186 140.261 63.7362 135.535 61.6648C134.657 61.2801 129.818 55.7863 125.91 57.3276C123.1 58.4362 117.109 71.2637 117.109 71.2637H169.588V71.1911Z" fill="#F8F9FA"/>
 <path d="M135.063 56.0466C135.972 56.0466 136.708 55.3191 136.708 54.4217C136.708 53.5244 135.972 52.7969 135.063 52.7969C134.155 52.7969 133.418 53.5244 133.418 54.4217C133.418 55.3191 134.155 56.0466 135.063 56.0466Z" fill="#F8F9FA"/>
 </g>
@@ -174,12 +254,20 @@
 <mask id="mask20" mask-type="alpha" maskUnits="userSpaceOnUse" x="124" y="99" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M124 99H161.687V124H124V99Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask20)">
+=======
+<g mask="url(#mask20)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="123.354" y="98.8481" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask21" mask-type="alpha" maskUnits="userSpaceOnUse" x="123" y="98" width="41" height="27">
 <rect x="123.354" y="98.8481" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask21)">
+=======
+<g mask="url(#mask21)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M169.588 127.191C169.588 127.191 159.151 107.342 151.253 105.73C143.355 104.119 140.261 119.736 135.535 117.665C134.657 117.28 129.818 111.786 125.91 113.328C123.1 114.436 117.109 127.264 117.109 127.264H169.588V127.191Z" fill="#F8F9FA"/>
 <path d="M135.063 112.047C135.972 112.047 136.708 111.319 136.708 110.422C136.708 109.524 135.972 108.797 135.063 108.797C134.155 108.797 133.418 109.524 133.418 110.422C133.418 111.319 134.155 112.047 135.063 112.047Z" fill="#F8F9FA"/>
 </g>
@@ -187,12 +275,20 @@
 <mask id="mask22" mask-type="alpha" maskUnits="userSpaceOnUse" x="124" y="155" width="38" height="25">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M124 155H161.687V180H124V155Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask22)">
+=======
+<g mask="url(#mask22)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="123.354" y="154.848" width="39.8401" height="26.0088" fill="#E6E9EC"/>
 <mask id="mask23" mask-type="alpha" maskUnits="userSpaceOnUse" x="123" y="154" width="41" height="27">
 <rect x="123.354" y="154.848" width="39.8401" height="26.0088" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask23)">
+=======
+<g mask="url(#mask23)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M169.588 183.191C169.588 183.191 159.151 163.342 151.253 161.73C143.355 160.119 140.261 175.736 135.535 173.665C134.657 173.28 129.818 167.786 125.91 169.328C123.1 170.436 117.109 183.264 117.109 183.264H169.588V183.191Z" fill="#F8F9FA"/>
 <path d="M135.063 168.047C135.972 168.047 136.708 167.319 136.708 166.422C136.708 165.524 135.972 164.797 135.063 164.797C134.155 164.797 133.418 165.524 133.418 166.422C133.418 167.319 134.155 168.047 135.063 168.047Z" fill="#F8F9FA"/>
 </g>

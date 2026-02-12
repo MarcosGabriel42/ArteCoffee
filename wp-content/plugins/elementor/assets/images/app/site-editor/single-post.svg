@@ -7,12 +7,20 @@
 <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="21" y="34" width="20" height="20">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M21 43.9844C21 38.4702 25.4702 34 30.9844 34C36.4986 34 40.9688 38.4702 40.9688 43.9844C40.9688 49.4986 36.4986 53.9688 30.9844 53.9688C25.4702 53.9688 21 49.4986 21 43.9844Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask0)">
+=======
+<g mask="url(#mask0)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="18.9141" y="27.168" width="48.1517" height="32.0394" fill="#E6E9EC"/>
 <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="18" y="27" width="50" height="33">
 <rect x="18.9141" y="27.168" width="48.1517" height="32.0394" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask1)">
+=======
+<g mask="url(#mask1)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M74.5879 62.0827C74.5879 62.0827 61.9738 37.6316 52.4279 35.646C42.882 33.6604 39.1432 52.8992 33.4308 50.3476C32.3698 49.8736 26.5205 43.106 21.7979 45.0047C18.4011 46.3703 11.1611 62.1721 11.1611 62.1721H74.5879V62.0827Z" fill="#F8F9FA"/>
 <path d="M32.8613 43.4266C33.9595 43.4266 34.8496 42.5304 34.8496 41.425C34.8496 40.3195 33.9595 39.4233 32.8613 39.4233C31.7632 39.4233 30.873 40.3195 30.873 41.425C30.873 42.5304 31.7632 43.4266 32.8613 43.4266Z" fill="#F8F9FA"/>
 </g>
@@ -26,12 +34,20 @@
 <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="90" width="229" height="85">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 90H229V175H0V90Z" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask2)">
+=======
+<g mask="url(#mask2)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <rect x="22" y="74.4436" width="185" height="123.096" fill="#E6E9EC"/>
 <mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="22" y="74" width="185" height="124">
 <rect x="22" y="74.4436" width="185" height="123.096" fill="white"/>
 </mask>
+<<<<<<< HEAD
 <g mask="url(/artecoffee/#mask3)">
+=======
+<g mask="url(#mask3)">
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 <path d="M236.688 208.587C236.688 208.587 188.224 114.645 151.548 107.017C114.873 99.3879 100.508 173.304 78.5612 163.5C74.4848 161.679 52.0116 135.678 33.8672 142.973C20.8164 148.22 -6.99962 208.93 -6.99962 208.93H236.688V208.587Z" fill="#F8F9FA"/>
 <path d="M76.3735 136.91C80.5924 136.91 84.0126 133.467 84.0126 129.219C84.0126 124.972 80.5924 121.529 76.3735 121.529C72.1545 121.529 68.7344 124.972 68.7344 129.219C68.7344 133.467 72.1545 136.91 76.3735 136.91Z" fill="#F8F9FA"/>
 </g>

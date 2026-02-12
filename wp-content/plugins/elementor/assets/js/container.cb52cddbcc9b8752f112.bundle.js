@@ -378,7 +378,11 @@ class Shapes extends elementorModules.frontend.handlers.Base {
   isActive() {
     return elementorFrontend.isEditMode();
   }
+<<<<<<< HEAD
   getSvgURL(/ARTECOFFEE/shapeType, fileName) {
+=======
+  getSvgURL(shapeType, fileName) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     let svgURL = this.getSettings('svgURL') + fileName + '.svg';
     if (elementor.config.additional_shapes && shapeType in elementor.config.additional_shapes) {
       svgURL = elementor.config.additional_shapes[shapeType];
@@ -401,7 +405,11 @@ class Shapes extends elementorModules.frontend.handlers.Base {
     if (this.getElementSettings(baseSettingKey + '_negative')) {
       fileName += '-negative';
     }
+<<<<<<< HEAD
     const svgURL = this.getSvgURL(/ARTECOFFEE/shapeType, fileName);
+=======
+    const svgURL = this.getSvgURL(shapeType, fileName);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     jQuery.get(svgURL, data => {
       $svgContainer.empty().append(data.childNodes[0]);
     });

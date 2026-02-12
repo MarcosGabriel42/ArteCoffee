@@ -63,7 +63,11 @@ class Video extends elementorModules.frontend.handlers.Base {
     if (lazyLoad) {
       $videoIframe.attr('src', lazyLoad);
     }
+<<<<<<< HEAD
     $videoIframe[0].src = this.apiProvider.getAutoplayURL(/ARTECOFFEE/$videoIframe[0].src);
+=======
+    $videoIframe[0].src = this.apiProvider.getAutoplayURL($videoIframe[0].src);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   }
   async animateVideo() {
     const lightbox = await elementorFrontend.utils.lightbox;
@@ -135,7 +139,11 @@ class Video extends elementorModules.frontend.handlers.Base {
       // Currently the only API integration in the Video widget is for the YT API
       return;
     }
+<<<<<<< HEAD
     this.videoID = this.apiProvider.getVideoIDFromURL(/ARTECOFFEE/elementSettings.youtube_url);
+=======
+    this.videoID = this.apiProvider.getVideoIDFromURL(elementSettings.youtube_url);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
     // If there is an image overlay, the YouTube video prep method will be triggered on click
     if (!this.videoID) {

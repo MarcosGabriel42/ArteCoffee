@@ -2849,7 +2849,11 @@ var FileReaderBase = /*#__PURE__*/function () {
                   return resolve(fileReader.result);
                 };
               });
+<<<<<<< HEAD
               fileReader.readAsDataURL(/ARTECOFFEE/this.getFile());
+=======
+              fileReader.readAsDataURL(this.getFile());
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
               return _context2.abrupt("return", handler);
             case 3:
             case "end":
@@ -2857,7 +2861,11 @@ var FileReaderBase = /*#__PURE__*/function () {
           }
         }, _callee2, this);
       }));
+<<<<<<< HEAD
       function getDataUrl(/ArteCoffee/) {
+=======
+      function getDataUrl() {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         return _getDataUrl.apply(this, arguments);
       }
       return getDataUrl;
@@ -3099,7 +3107,11 @@ var Widget = /*#__PURE__*/function (_MediaParser) {
               file = this.reader.getFile();
               _context.t0 = _containerFactory.default;
               _context.next = 4;
+<<<<<<< HEAD
               return this.reader.getDataUrl(/ArteCoffee/);
+=======
+              return this.reader.getDataUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
             case 4:
               _context.t1 = _context.sent;
               _context.t2 = file.name.split('.')[0];
@@ -3428,7 +3440,11 @@ var Widget = /*#__PURE__*/function (_MediaParser) {
               file = this.reader.getFile();
               _context.t0 = _containerFactory.default;
               _context.next = 4;
+<<<<<<< HEAD
               return this.reader.getDataUrl(/ArteCoffee/);
+=======
+              return this.reader.getDataUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
             case 4:
               _context.t1 = _context.sent;
               _context.t2 = file.name.split('.')[0];
@@ -4593,7 +4609,11 @@ var Normalizer = /*#__PURE__*/function () {
                 _context3.next = 14;
                 break;
               }
+<<<<<<< HEAD
               subject = this.constructor.createDataUrl(/ArteCoffee/subject, mimeType);
+=======
+              subject = this.constructor.createDataUrl(subject, mimeType);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
               _context3.next = 15;
               break;
             case 14:
@@ -4628,7 +4648,11 @@ var Normalizer = /*#__PURE__*/function () {
      */
   }], [{
     key: "createDataUrl",
+<<<<<<< HEAD
     value: function createDataUrl(/ArteCoffee/data) {
+=======
+    value: function createDataUrl(data) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       var mimeType = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
       var base64 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
       if (base64) {
@@ -10439,7 +10463,11 @@ module.exports = Marionette.ItemView.extend({
   onRender: function onRender() {
     var _this = this;
     this.ui.connect.elementorConnect({
+<<<<<<< HEAD
       parseUrl: function parseUrl(/ArteCoffee/url) {
+=======
+      parseUrl: function parseUrl(url) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         return url.replace('%%template_type%%', _this.model.get('type'));
       },
       success: function success() {
@@ -10615,7 +10643,11 @@ TemplateLibraryImportView = Marionette.ItemView.extend({
     fileReader.onload = function (event) {
       return _this.importTemplate(file.name, event.target.result.replace(/^[^,]+,/, ''));
     };
+<<<<<<< HEAD
     fileReader.readAsDataURL(/ARTECOFFEE/file);
+=======
+    fileReader.readAsDataURL(file);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   },
   importTemplate: function importTemplate(fileName, fileData) {
     var _this2 = this;
@@ -13620,7 +13652,11 @@ ControlMediaItemView = ControlBaseDataView.extend({
       var $thumbnail = jQuery('<div>', {
         class: 'elementor-control-gallery-thumbnail'
       });
+<<<<<<< HEAD
       $thumbnail.css('background-image', 'url(/artecoffee/' + image.url + ')');
+=======
+      $thumbnail.css('background-image', 'url(' + image.url + ')');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       $galleryThumbnails.append($thumbnail);
     });
   },
@@ -14372,7 +14408,11 @@ ControlMediaItemView = ControlMultipleBaseItemView.extend({
       isPlaceholder = !value && url,
       mediaType = this.getMediaType();
     if (['image', 'svg'].includes(mediaType)) {
+<<<<<<< HEAD
       this.ui.mediaImage.css('background-image', url ? 'url(/artecoffee/' + url + ')' : '');
+=======
+      this.ui.mediaImage.css('background-image', url ? 'url(' + url + ')' : '');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       if (isPlaceholder) {
         this.ui.mediaImage.css('opacity', 0.5);
       }
@@ -14497,7 +14537,11 @@ ControlMediaItemView = ControlMultipleBaseItemView.extend({
         _this2.setValue(currentControlValue);
       }
     });
+<<<<<<< HEAD
     imageURL = elementor.imagesManager.getImageUrl(/ArteCoffee/{
+=======
+    imageURL = elementor.imagesManager.getImageUrl({
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       id: currentControlValue.id,
       url: currentControlValue.url,
       size: currentControlValue.size
@@ -15730,7 +15774,11 @@ var BaseMultiple = __webpack_require__(/*! elementor-controls/base-multiple */ "
 var URL = /*#__PURE__*/function (_BaseMultiple) {
   (0, _inherits2.default)(URL, _BaseMultiple);
   var _super = _createSuper(URL);
+<<<<<<< HEAD
   function URL(/ARTECOFFEE/) {
+=======
+  function URL() {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     (0, _classCallCheck2.default)(this, URL);
     return _super.apply(this, arguments);
   }
@@ -27943,7 +27991,11 @@ var EditorBase = /*#__PURE__*/function (_Marionette$Applicati) {
         style = 'color: #C42961';
       } else {
         text += '%c00';
+<<<<<<< HEAD
         style = 'font-size: 22px; background-image: url(/artecoffee/"' + elementorCommon.config.urls.assets + 'images/logo-icon.png"); color: transparent; background-repeat: no-repeat';
+=======
+        style = 'font-size: 22px; background-image: url("' + elementorCommon.config.urls.assets + 'images/logo-icon.png"); color: transparent; background-repeat: no-repeat';
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       }
       setTimeout(console.log.bind(console, text, style)); // eslint-disable-line
 
@@ -37172,7 +37224,11 @@ PanelMenu.addExitItem = function () {
   } else {
     itemArgs = {
       type: 'link',
+<<<<<<< HEAD
       link: PanelMenu.getExitUrl(/ArteCoffee/)
+=======
+      link: PanelMenu.getExitUrl()
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     };
   }
   PanelMenu.addItem(_objectSpread({
@@ -37189,7 +37245,11 @@ PanelMenu.clickExitItem = function () {
 
   // The modal will pop if the user has not set the exit to preference yet or if the model never showed before.
   if (currentValue !== defaultValue || PanelMenu.exitShouldRedirect) {
+<<<<<<< HEAD
     window.location.href = PanelMenu.getExitUrl(/ArteCoffee/);
+=======
+    window.location.href = PanelMenu.getExitUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   } else {
     var exitIntroduction = PanelMenu.createExitIntroductionDialog();
     exitIntroduction.show();
@@ -37240,7 +37300,11 @@ PanelMenu.createExitIntroductionDialog = function () {
                 _context.next = 3;
                 return elementor.settings.editorPreferences.save();
               case 3:
+<<<<<<< HEAD
                 window.location.href = PanelMenu.getExitUrl(/ArteCoffee/);
+=======
+                window.location.href = PanelMenu.getExitUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
               case 4:
               case "end":
                 return _context.stop();
@@ -37253,7 +37317,11 @@ PanelMenu.createExitIntroductionDialog = function () {
         return onConfirm;
       }(),
       onCancel: function onCancel() {
+<<<<<<< HEAD
         window.location.href = PanelMenu.getExitUrl(/ArteCoffee/);
+=======
+        window.location.href = PanelMenu.getExitUrl();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       }
     }
   });
@@ -40269,7 +40337,11 @@ function getQueryParam(name) {
   return queryParams.get(name);
 }
 function setQueryParam(name, value) {
+<<<<<<< HEAD
   var url = new URL(/ARTECOFFEE/window.location.href);
+=======
+  var url = new URL(window.location.href);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   if (null === value) {
     url.searchParams.delete(name);
   } else {
@@ -52246,7 +52318,11 @@ var Console = /*#__PURE__*/function () {
     key: "warn",
     value: function warn() {
       var _console;
+<<<<<<< HEAD
       var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+=======
+      var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
         args[_key] = arguments[_key];
       }

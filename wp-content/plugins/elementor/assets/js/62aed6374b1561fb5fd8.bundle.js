@@ -5424,7 +5424,11 @@ var Select = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.styled)('select', function (
     appearance: "none",
     WebkitAppearance: 'none',
     backgroundColor: theme.inputBackgroundColor,
+<<<<<<< HEAD
     backgroundImage: "url(/artecoffee/\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23444444'><polygon points='0,25 100,25 50,75'/></svg>\")",
+=======
+    backgroundImage: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23444444'><polygon points='0,25 100,25 50,75'/></svg>\")",
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right .55em center",
     backgroundSize: ".65em auto, 100%",

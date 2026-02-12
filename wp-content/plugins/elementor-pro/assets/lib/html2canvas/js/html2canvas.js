@@ -2251,7 +2251,11 @@
 		img.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'></svg>";
 		try {
 			ctx.drawImage(img, 0, 0);
+<<<<<<< HEAD
 			canvas.toDataURL(/ARTECOFFEE/);
+=======
+			canvas.toDataURL();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 		}
 		catch (e) {
 			return false;
@@ -2273,7 +2277,11 @@
 		ctx.fillStyle = 'rgb(0, 255, 0)';
 		ctx.fillRect(0, 0, size, size);
 		var img = new Image();
+<<<<<<< HEAD
 		var greenImageSrc = canvas.toDataURL(/ARTECOFFEE/);
+=======
+		var greenImageSrc = canvas.toDataURL();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 		img.src = greenImageSrc;
 		var svg = createForeignObjectSVG(size, size, 0, 0, img);
 		ctx.fillStyle = 'red';
@@ -2285,7 +2293,11 @@
 				ctx.fillStyle = 'red';
 				ctx.fillRect(0, 0, size, size);
 				var node = document.createElement('div');
+<<<<<<< HEAD
 				node.style.backgroundImage = "url(/artecoffee/" + greenImageSrc + ")";
+=======
+				node.style.backgroundImage = "url(" + greenImageSrc + ")";
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 				node.style.height = size + "px";
 				// Firefox 55 does not render inline <img /> tags
 				return isGreenPixel(data)
@@ -2565,7 +2577,11 @@
 							var reader_1 = new FileReader();
 							reader_1.addEventListener('load', function () { return resolve(reader_1.result); }, false);
 							reader_1.addEventListener('error', function (e) { return reject(e); }, false);
+<<<<<<< HEAD
 							reader_1.readAsDataURL(/ARTECOFFEE/xhr.response);
+=======
+							reader_1.readAsDataURL(xhr.response);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 						}
 					}
 					else {
@@ -5110,7 +5126,11 @@
 			if (this.options.inlineImages && canvas.ownerDocument) {
 				var img = canvas.ownerDocument.createElement('img');
 				try {
+<<<<<<< HEAD
 					img.src = canvas.toDataURL(/ARTECOFFEE/);
+=======
+					img.src = canvas.toDataURL();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 					return img;
 				}
 				catch (e) {
@@ -5182,7 +5202,11 @@
                                 // https://github.com/niklasvh/html2canvas/issues/1502
                                 iframeCanvas.src == 'data:,' ? resolve(canvas) : reject(event);
                             };
+<<<<<<< HEAD
                             iframeCanvas.src = canvas.toDataURL(/ARTECOFFEE/);
+=======
+                            iframeCanvas.src = canvas.toDataURL();
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
                             if (tempIframe.parentNode && iframe.ownerDocument && iframe.ownerDocument.defaultView) {
                                 tempIframe.parentNode.replaceChild(
                                     copyCSSStyles(

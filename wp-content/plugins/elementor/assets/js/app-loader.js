@@ -3801,7 +3801,11 @@ var Console = /*#__PURE__*/function () {
     key: "warn",
     value: function warn() {
       var _console;
+<<<<<<< HEAD
       var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+=======
+      var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
         args[_key] = arguments[_key];
       }

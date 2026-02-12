@@ -3707,7 +3707,11 @@ var Data = /*#__PURE__*/function (_Commands) {
     }
 
     /**
+<<<<<<< HEAD
      * Function getEndpointURL(/ARTECOFFEE/).
+=======
+     * Function getEndpointURL().
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
      *
      * Get remote endpoint address.
      *
@@ -3718,7 +3722,11 @@ var Data = /*#__PURE__*/function (_Commands) {
      */
   }, {
     key: "getEndpointURL",
+<<<<<<< HEAD
     value: function getEndpointURL(/ARTECOFFEE/requestData) {
+=======
+    value: function getEndpointURL(requestData) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       var endpoint = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : requestData.endpoint;
       // Allow to request data override default namespace and args.
       var _requestData$baseEndp = requestData.baseEndpointURL,
@@ -3952,7 +3960,11 @@ var Data = /*#__PURE__*/function (_Commands) {
     value: function prepareEndpoint(requestData) {
       var splitEndpoint = requestData.endpoint.split('?'),
         endpoint = splitEndpoint.shift();
+<<<<<<< HEAD
       var endpointAddress = this.getEndpointURL(/ARTECOFFEE/requestData, endpoint);
+=======
+      var endpointAddress = this.getEndpointURL(requestData, endpoint);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       if (splitEndpoint.length) {
         var separator = endpointAddress.includes('?') ? '&' : '?';
         endpointAddress += separator + splitEndpoint.pop();
@@ -9435,7 +9447,11 @@ var Console = /*#__PURE__*/function () {
     key: "warn",
     value: function warn() {
       var _console;
+<<<<<<< HEAD
       var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+=======
+      var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
         args[_key] = arguments[_key];
       }

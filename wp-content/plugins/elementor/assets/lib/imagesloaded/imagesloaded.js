@@ -287,7 +287,11 @@ ImagesLoaded.prototype.addElementBackgroundImages = function( elem ) {
     // Firefox returns null if in a hidden iframe https://bugzil.la/548397
     return;
   }
+<<<<<<< HEAD
   // get url inside url(/artecoffee/"...")
+=======
+  // get url inside url("...")
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
   var reURL = /url\((['"])?(.*?)\1\)/gi;
   var matches = reURL.exec( style.backgroundImage );
   while ( matches !== null ) {

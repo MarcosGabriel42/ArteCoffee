@@ -702,7 +702,11 @@ class BackgroundSlideshow extends elementorModules.frontend.handlers.SwiperBase 
       } else {
         $slidebg = jQuery('<div>', {
           class: slideInnerClass,
+<<<<<<< HEAD
           style: 'background-image: url(/artecoffee/"' + slide.url + '");'
+=======
+          style: 'background-image: url("' + slide.url + '");'
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         });
       }
       $slide.append($slidebg);
@@ -966,7 +970,11 @@ class BackgroundVideo extends elementorModules.frontend.handlers.Base {
       this.apiProvider = elementorFrontend.utils.youtube;
     }
     if (this.apiProvider) {
+<<<<<<< HEAD
       videoID = this.apiProvider.getVideoIDFromURL(/ARTECOFFEE/videoLink);
+=======
+      videoID = this.apiProvider.getVideoIDFromURL(videoLink);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       this.apiProvider.onApiReady(apiObject => {
         if ('youtube' === this.videoType) {
           this.prepareYTVideo(apiObject, videoID);
@@ -1252,7 +1260,11 @@ class Shapes extends elementorModules.frontend.handlers.Base {
   isActive() {
     return elementorFrontend.isEditMode();
   }
+<<<<<<< HEAD
   getSvgURL(/ARTECOFFEE/shapeType, fileName) {
+=======
+  getSvgURL(shapeType, fileName) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     let svgURL = this.getSettings('svgURL') + fileName + '.svg';
     if (elementor.config.additional_shapes && shapeType in elementor.config.additional_shapes) {
       svgURL = elementor.config.additional_shapes[shapeType];
@@ -1275,7 +1287,11 @@ class Shapes extends elementorModules.frontend.handlers.Base {
     if (this.getElementSettings(baseSettingKey + '_negative')) {
       fileName += '-negative';
     }
+<<<<<<< HEAD
     const svgURL = this.getSvgURL(/ARTECOFFEE/shapeType, fileName);
+=======
+    const svgURL = this.getSvgURL(shapeType, fileName);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     jQuery.get(svgURL, data => {
       $svgContainer.empty().append(data.childNodes[0]);
     });
@@ -1921,11 +1937,19 @@ class BaseLoader extends elementorModules.ViewModule {
   }
   insertAPI() {
     this.elements.$firstScript.before(jQuery('<script>', {
+<<<<<<< HEAD
       src: this.getApiURL(/ARTECOFFEE/)
     }));
     this.setSettings('isInserted', true);
   }
   getVideoIDFromURL(/ARTECOFFEE/url) {
+=======
+      src: this.getApiURL()
+    }));
+    this.setSettings('isInserted', true);
+  }
+  getVideoIDFromURL(url) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     const videoIDParts = url.match(this.getURLRegex());
     return videoIDParts && videoIDParts[1];
   }
@@ -1942,7 +1966,11 @@ class BaseLoader extends elementorModules.ViewModule {
       }, 350);
     }
   }
+<<<<<<< HEAD
   getAutoplayURL(/ARTECOFFEE/videoURL) {
+=======
+  getAutoplayURL(videoURL) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     return videoURL.replace('&autoplay=0', '') + '&autoplay=1';
   }
 }
@@ -1966,7 +1994,11 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 var _baseLoader = _interopRequireDefault(__webpack_require__(/*! ./base-loader */ "../assets/dev/js/frontend/utils/video-api/base-loader.js"));
 class VimeoLoader extends _baseLoader.default {
+<<<<<<< HEAD
   getApiURL(/ARTECOFFEE/) {
+=======
+  getApiURL() {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     return 'https://player.vimeo.com/api/player.js';
   }
   getURLRegex() {
@@ -1978,8 +2010,13 @@ class VimeoLoader extends _baseLoader.default {
   getApiObject() {
     return Vimeo;
   }
+<<<<<<< HEAD
   getAutoplayURL(/ARTECOFFEE/videoURL) {
     videoURL = super.getAutoplayURL(/ARTECOFFEE/videoURL);
+=======
+  getAutoplayURL(videoURL) {
+    videoURL = super.getAutoplayURL(videoURL);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
     // Vimeo requires the '#t=' param to be last in the URL.
     const timeMatch = videoURL.match(/#t=[^&]*/);
@@ -2006,7 +2043,11 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 var _baseLoader = _interopRequireDefault(__webpack_require__(/*! ./base-loader */ "../assets/dev/js/frontend/utils/video-api/base-loader.js"));
 class YoutubeLoader extends _baseLoader.default {
+<<<<<<< HEAD
   getApiURL(/ARTECOFFEE/) {
+=======
+  getApiURL() {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     return 'https://www.youtube.com/iframe_api';
   }
   getURLRegex() {

@@ -495,7 +495,11 @@ module.exports = elementorModules.ViewModule.extend({
         return;
       }
       $videoElement = $('<iframe>', {
+<<<<<<< HEAD
         src: apiProvider.getAutoplayURL(/ARTECOFFEE/options.url),
+=======
+        src: apiProvider.getAutoplayURL(options.url),
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         allowfullscreen: 1
       });
     }
@@ -1056,7 +1060,11 @@ module.exports = elementorModules.ViewModule.extend({
       videoType = 'youtube';
       apiProvider = elementorFrontend.utils.youtube;
     }
+<<<<<<< HEAD
     const videoID = apiProvider.getVideoIDFromURL(/ARTECOFFEE/videoURL);
+=======
+    const videoID = apiProvider.getVideoIDFromURL(videoURL);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     apiProvider.onApiReady(apiObject => {
       if ('youtube' === videoType) {
         this.prepareYTVideo(apiObject, videoID, $videoContainer, $videoWrapper, $playIcon);

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<<<<<<< HEAD
 	xmlns:content="/artecoffee/http://purl.org/rss/1.0/modules/content/"
+=======
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -9,8 +13,13 @@
 
 <channel>
 	<title>Lápis &#8211; Art&amp;Coffee</title>
+<<<<<<< HEAD
 	<atom:link href="https://marcosgabriel42.github.io/product-category/lapis/feed/" rel="self" type="application/rss+xml" />
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<atom:link href="/product-category/lapis/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<description>Saboreie a vida com café e arte</description>
 	<lastBuildDate>Sun, 03 Dec 2023 21:36:45 +0000</lastBuildDate>
 	<language>pt-BR</language>
@@ -21,144 +30,254 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 
 <image>
+<<<<<<< HEAD
 	<url>https://marcosgabriel42.github.io/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
 	<title>Lápis &#8211; Art&amp;Coffee</title>
 	<link>https://marcosgabriel42.github.io/</link>
+=======
+	<url>/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
+	<title>Lápis &#8211; Art&amp;Coffee</title>
+	<link>/</link>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Lápis de desenho a carvão</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-desenho-a-carvao/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-desenho-a-carvao/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:33:44 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=458</guid>
+=======
+		<link>/product/lapis-de-desenho-a-carvao/</link>
+					<comments>/product/lapis-de-desenho-a-carvao/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:33:44 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=458</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-desenho-a-carvao/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-desenho-a-carvao/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis de cor neon</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-cor-neon/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-cor-neon/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:33:05 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=457</guid>
+=======
+		<link>/product/lapis-de-cor-neon/</link>
+					<comments>/product/lapis-de-cor-neon/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:33:05 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=457</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-cor-neon/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-cor-neon/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis de cor metálico</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-cor-metalico/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-cor-metalico/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:31:39 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=456</guid>
+=======
+		<link>/product/lapis-de-cor-metalico/</link>
+					<comments>/product/lapis-de-cor-metalico/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:31:39 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=456</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-cor-metalico/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-cor-metalico/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis de carvão branco</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-carvao-branco/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-carvao-branco/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:30:54 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=455</guid>
+=======
+		<link>/product/lapis-de-carvao-branco/</link>
+					<comments>/product/lapis-de-carvao-branco/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:30:54 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=455</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-carvao-branco/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-carvao-branco/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis de cor pastel</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-cor-pastel/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-cor-pastel/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:29:58 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=454</guid>
+=======
+		<link>/product/lapis-de-cor-pastel/</link>
+					<comments>/product/lapis-de-cor-pastel/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:29:58 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=454</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-cor-pastel/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-cor-pastel/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis de carvão</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-carvao/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-carvao/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:29:15 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=453</guid>
+=======
+		<link>/product/lapis-de-carvao/</link>
+					<comments>/product/lapis-de-carvao/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:29:15 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=453</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-carvao/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-carvao/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis de cor aquarelável</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-de-cor-aquarelavel/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-de-cor-aquarelavel/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:28:41 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=452</guid>
+=======
+		<link>/product/lapis-de-cor-aquarelavel/</link>
+					<comments>/product/lapis-de-cor-aquarelavel/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:28:41 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=452</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-de-cor-aquarelavel/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-de-cor-aquarelavel/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Lápis grafite HB</title>
+<<<<<<< HEAD
 		<link>https://marcosgabriel42.github.io/product/lapis-grafite-hb/</link>
 					<comments>https://marcosgabriel42.github.io/product/lapis-grafite-hb/#respond</comments>
 		
 		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
 		<pubDate>Sun, 03 Dec 2023 21:25:09 +0000</pubDate>
 				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=442</guid>
+=======
+		<link>/product/lapis-grafite-hb/</link>
+					<comments>/product/lapis-grafite-hb/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 21:25:09 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=442</guid>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
+<<<<<<< HEAD
 					<wfw:commentRss>https://marcosgabriel42.github.io/product/lapis-grafite-hb/feed/</wfw:commentRss>
+=======
+					<wfw:commentRss>/product/lapis-grafite-hb/feed/</wfw:commentRss>
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 			<slash:comments>0</slash:comments>
 		
 		

@@ -7,8 +7,13 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
+<<<<<<< HEAD
   src: url(/artecoffee/"https://marcosgabriel42.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot");
   src: url(/artecoffee/"https://marcosgabriel42.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot#iefix") format("embedded-opentype"), url(/artecoffee/"https://marcosgabriel42.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2") format("woff2"), url(/artecoffee/"https://marcosgabriel42.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff") format("woff"), url(/artecoffee/"https://marcosgabriel42.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf") format("truetype"), url(/artecoffee/"https://marcosgabriel42.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+=======
+  src: url("/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot");
+  src: url("/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot#iefix") format("embedded-opentype"), url("/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2") format("woff2"), url("/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff") format("woff"), url("/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf") format("truetype"), url("/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
 
 .fab {
   font-family: 'Font Awesome 5 Brands';

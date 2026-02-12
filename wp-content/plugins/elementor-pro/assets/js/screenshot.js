@@ -100,7 +100,11 @@ class Screenshot extends elementorModules.ViewModule {
     jQuery('link').not(notSelector).each((index, el) => {
       const $link = jQuery(el),
         $newLink = $link.clone();
+<<<<<<< HEAD
       $newLink.attr('href', this.getScreenshotProxyUrl(/ArteCoffee/$link.attr('href')));
+=======
+      $newLink.attr('href', this.getScreenshotProxyUrl($link.attr('href')));
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
       this.elements.$head.append($newLink);
       $link.remove();
     });
@@ -113,7 +117,11 @@ class Screenshot extends elementorModules.ViewModule {
     const selector = this.getSettings('external_images_urls').map(url => `img[src^="${url}"]`).join(', ');
     jQuery(selector).each((index, el) => {
       const $img = jQuery(el);
+<<<<<<< HEAD
       $img.attr('src', this.getScreenshotProxyUrl(/ArteCoffee/$img.attr('src')));
+=======
+      $img.attr('src', this.getScreenshotProxyUrl($img.attr('src')));
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     });
   }
 
@@ -208,7 +216,11 @@ class Screenshot extends elementorModules.ViewModule {
       if (isSafari) {
         this.log('Creating screenshot with "html2canvas"');
         return html2canvas(document.body).then(canvas => {
+<<<<<<< HEAD
           return canvas.toDataURL(/ARTECOFFEE/'image/png');
+=======
+          return canvas.toDataURL('image/png');
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         });
       }
       this.log('Creating screenshot with "dom-to-image"');
@@ -276,7 +288,11 @@ class Screenshot extends elementorModules.ViewModule {
       elementorCommon.ajax.addRequest('screenshot_save', {
         data: {
           post_id: this.getSettings('post_id'),
+<<<<<<< HEAD
           screenshot: canvas.toDataURL(/ARTECOFFEE/'image/png')
+=======
+          screenshot: canvas.toDataURL('image/png')
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
         },
         success: url => {
           this.log(`Screenshot created: ${encodeURI(url)}`);
@@ -315,7 +331,11 @@ class Screenshot extends elementorModules.ViewModule {
    * @param {string} url
    * @return {string} -
    */
+<<<<<<< HEAD
   getScreenshotProxyUrl(/ArteCoffee/url) {
+=======
+  getScreenshotProxyUrl(url) {
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     return `${this.getSettings('home_url')}?screenshot_proxy&nonce=${this.getSettings('nonce')}&href=${url}`;
   }
 

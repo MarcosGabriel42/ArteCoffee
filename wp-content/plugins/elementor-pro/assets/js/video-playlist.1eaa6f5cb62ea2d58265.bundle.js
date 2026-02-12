@@ -925,7 +925,11 @@ class playerVimeo extends _playerBase.default {
     this.isReady = false;
   }
   create() {
+<<<<<<< HEAD
     this.currentVideoID = this.apiProvider.getVideoIDFromURL(/ARTECOFFEE/this.playlistItem.videoUrl);
+=======
+    this.currentVideoID = this.apiProvider.getVideoIDFromURL(this.playlistItem.videoUrl);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     return new Promise(resolve => {
       this.apiProvider.onApiReady(apiObject => {
         const playerOptions = {
@@ -1038,7 +1042,11 @@ class playerYoutube extends _playerBase.default {
     this.isReady = false;
   }
   create() {
+<<<<<<< HEAD
     this.currentVideoID = this.apiProvider.getVideoIDFromURL(/ARTECOFFEE/this.playlistItem.videoUrl);
+=======
+    this.currentVideoID = this.apiProvider.getVideoIDFromURL(this.playlistItem.videoUrl);
+>>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
     const videoPromise = new Promise(resolve => {
       this.apiProvider.onApiReady(apiObject => {
         const playerOptions = {
