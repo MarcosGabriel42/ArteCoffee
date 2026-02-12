@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="/artecoffee/http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Pintura &#8211; Art&amp;Coffee</title>
+	<atom:link href="https://marcosgabriel42.github.io/product-category/pintura/feed/" rel="self" type="application/rss+xml" />
+	<link>https://marcosgabriel42.github.io/</link>
+	<description>Saboreie a vida com café e arte</description>
+	<lastBuildDate>Sun, 03 Dec 2023 22:05:13 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+
+<image>
+	<url>https://marcosgabriel42.github.io/wp-content/uploads/2023/11/vai_ser_esse-removebg-preview-100x100.png</url>
+	<title>Pintura &#8211; Art&amp;Coffee</title>
+	<link>https://marcosgabriel42.github.io/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Gouache</title>
+		<link>https://marcosgabriel42.github.io/product/gouache/</link>
+					<comments>https://marcosgabriel42.github.io/product/gouache/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:05:13 +0000</pubDate>
+				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=508</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://marcosgabriel42.github.io/product/gouache/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Aquarela</title>
+		<link>https://marcosgabriel42.github.io/product/aquarela/</link>
+					<comments>https://marcosgabriel42.github.io/product/aquarela/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:03:21 +0000</pubDate>
+				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=507</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://marcosgabriel42.github.io/product/aquarela/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tinta a Óleo</title>
+		<link>https://marcosgabriel42.github.io/product/tinta-a-oleo/</link>
+					<comments>https://marcosgabriel42.github.io/product/tinta-a-oleo/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:02:45 +0000</pubDate>
+				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=506</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://marcosgabriel42.github.io/product/tinta-a-oleo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tinta Acrílica</title>
+		<link>https://marcosgabriel42.github.io/product/tinta-acrilica/</link>
+					<comments>https://marcosgabriel42.github.io/product/tinta-acrilica/#respond</comments>
+		
+		<dc:creator><![CDATA[13Thwarrior]]></dc:creator>
+		<pubDate>Sun, 03 Dec 2023 22:02:14 +0000</pubDate>
+				<guid isPermaLink="false">https://marcosgabriel42.github.io/?post_type=product#038;p=501</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://marcosgabriel42.github.io/product/tinta-acrilica/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
