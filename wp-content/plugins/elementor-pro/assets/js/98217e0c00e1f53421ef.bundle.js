@@ -244,7 +244,7 @@
         },
 
 <<<<<<< HEAD
-        createScriptURL(/ARTECOFFEE/scriptUrl) {
+        createScripturl(/ArteCoffee/ARTECOFFEE/scriptUrl) {
 =======
         createScriptURL(scriptUrl) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1285,7 +1285,7 @@
               case 'TrustedScriptURL':
                 {
 <<<<<<< HEAD
-                  value = trustedTypesPolicy.createScriptURL(/ARTECOFFEE/value);
+                  value = trustedTypesPolicy.createScripturl(/ArteCoffee/ARTECOFFEE/value);
 =======
                   value = trustedTypesPolicy.createScriptURL(value);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

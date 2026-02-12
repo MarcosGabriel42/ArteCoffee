@@ -3708,7 +3708,7 @@ var Data = /*#__PURE__*/function (_Commands) {
 
     /**
 <<<<<<< HEAD
-     * Function getEndpointURL(/ARTECOFFEE/).
+     * Function getEndpointurl(/ArteCoffee/ARTECOFFEE/).
 =======
      * Function getEndpointURL().
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -3723,7 +3723,7 @@ var Data = /*#__PURE__*/function (_Commands) {
   }, {
     key: "getEndpointURL",
 <<<<<<< HEAD
-    value: function getEndpointURL(/ARTECOFFEE/requestData) {
+    value: function getEndpointurl(/ArteCoffee/ARTECOFFEE/requestData) {
 =======
     value: function getEndpointURL(requestData) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -3961,7 +3961,7 @@ var Data = /*#__PURE__*/function (_Commands) {
       var splitEndpoint = requestData.endpoint.split('?'),
         endpoint = splitEndpoint.shift();
 <<<<<<< HEAD
-      var endpointAddress = this.getEndpointURL(/ARTECOFFEE/requestData, endpoint);
+      var endpointAddress = this.getEndpointurl(/ArteCoffee/ARTECOFFEE/requestData, endpoint);
 =======
       var endpointAddress = this.getEndpointURL(requestData, endpoint);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -9448,7 +9448,7 @@ var Console = /*#__PURE__*/function () {
     value: function warn() {
       var _console;
 <<<<<<< HEAD
-      var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+      var style = "font-size: 12px; background-image: url(/ArteCoffee/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
 =======
       var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

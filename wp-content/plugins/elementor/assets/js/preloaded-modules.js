@@ -590,7 +590,7 @@ class Video extends elementorModules.frontend.handlers.Base {
       $videoIframe.attr('src', lazyLoad);
     }
 <<<<<<< HEAD
-    $videoIframe[0].src = this.apiProvider.getAutoplayURL(/ARTECOFFEE/$videoIframe[0].src);
+    $videoIframe[0].src = this.apiProvider.getAutoplayurl(/ArteCoffee/ARTECOFFEE/$videoIframe[0].src);
 =======
     $videoIframe[0].src = this.apiProvider.getAutoplayURL($videoIframe[0].src);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -666,7 +666,7 @@ class Video extends elementorModules.frontend.handlers.Base {
       return;
     }
 <<<<<<< HEAD
-    this.videoID = this.apiProvider.getVideoIDFromURL(/ARTECOFFEE/elementSettings.youtube_url);
+    this.videoID = this.apiProvider.getVideoIDFromurl(/ArteCoffee/ARTECOFFEE/elementSettings.youtube_url);
 =======
     this.videoID = this.apiProvider.getVideoIDFromURL(elementSettings.youtube_url);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1262,7 +1262,7 @@ module.exports = elementorModules.ViewModule.extend({
       }
       $videoElement = $('<iframe>', {
 <<<<<<< HEAD
-        src: apiProvider.getAutoplayURL(/ARTECOFFEE/options.url),
+        src: apiProvider.getAutoplayurl(/ArteCoffee/ARTECOFFEE/options.url),
 =======
         src: apiProvider.getAutoplayURL(options.url),
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1827,7 +1827,7 @@ module.exports = elementorModules.ViewModule.extend({
       apiProvider = elementorFrontend.utils.youtube;
     }
 <<<<<<< HEAD
-    const videoID = apiProvider.getVideoIDFromURL(/ARTECOFFEE/videoURL);
+    const videoID = apiProvider.getVideoIDFromurl(/ArteCoffee/ARTECOFFEE/videoURL);
 =======
     const videoID = apiProvider.getVideoIDFromURL(videoURL);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

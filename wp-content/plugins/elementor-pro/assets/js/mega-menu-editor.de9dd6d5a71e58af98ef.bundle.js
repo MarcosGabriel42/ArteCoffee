@@ -56,8 +56,8 @@ class Module {
       return '';
     }
 <<<<<<< HEAD
-    const permalinkArray = this.urlHelper.parse_url(/artecoffee/permalinkUrl),
-      menuItemUrlArray = this.urlHelper.parse_url(/artecoffee/menuLinkUrl),
+    const permalinkArray = this.urlHelper.parse_url(/ArteCoffee/artecoffee/permalinkUrl),
+      menuItemUrlArray = this.urlHelper.parse_url(/ArteCoffee/artecoffee/menuLinkUrl),
 =======
     const permalinkArray = this.urlHelper.parse_url(permalinkUrl),
       menuItemUrlArray = this.urlHelper.parse_url(menuLinkUrl),
@@ -84,7 +84,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = exports.UrlHelper = void 0;
 class UrlHelper {
 <<<<<<< HEAD
-  parse_url(/artecoffee/url) {
+  parse_url(/ArteCoffee/artecoffee/url) {
 =======
   parse_url(url) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -94,7 +94,7 @@ class UrlHelper {
           pathname,
           search
 <<<<<<< HEAD
-        } = new URL(/ARTECOFFEE/url),
+        } = new url(/ArteCoffee/ARTECOFFEE/url),
 =======
         } = new URL(url),
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

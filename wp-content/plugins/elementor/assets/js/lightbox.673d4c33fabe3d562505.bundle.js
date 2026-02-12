@@ -496,7 +496,7 @@ module.exports = elementorModules.ViewModule.extend({
       }
       $videoElement = $('<iframe>', {
 <<<<<<< HEAD
-        src: apiProvider.getAutoplayURL(/ARTECOFFEE/options.url),
+        src: apiProvider.getAutoplayurl(/ArteCoffee/ARTECOFFEE/options.url),
 =======
         src: apiProvider.getAutoplayURL(options.url),
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1061,7 +1061,7 @@ module.exports = elementorModules.ViewModule.extend({
       apiProvider = elementorFrontend.utils.youtube;
     }
 <<<<<<< HEAD
-    const videoID = apiProvider.getVideoIDFromURL(/ARTECOFFEE/videoURL);
+    const videoID = apiProvider.getVideoIDFromurl(/ArteCoffee/ARTECOFFEE/videoURL);
 =======
     const videoID = apiProvider.getVideoIDFromURL(videoURL);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

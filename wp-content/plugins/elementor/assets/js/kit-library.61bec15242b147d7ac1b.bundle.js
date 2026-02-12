@@ -649,7 +649,7 @@ function ConnectDialog(props) {
         return props.onError(__('Unable to connect', 'elementor'));
       },
 <<<<<<< HEAD
-      parseUrl: function parseUrl(/ArteCoffee/url) {
+      parseUrl: function parseurl(/ArteCoffee/ArteCoffee/url) {
 =======
       parseUrl: function parseUrl(url) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1200,9 +1200,9 @@ var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 var _appUi = __webpack_require__(/*! @elementor/app-ui */ "@elementor/app-ui");
 function KitAlreadyAppliedDialog(props) {
 <<<<<<< HEAD
-  var getRemoveKitUrl = function getRemoveKitUrl(/ArteCoffee/) {
+  var getRemoveKitUrl = function getRemoveKiturl(/ArteCoffee/ArteCoffee/) {
     var elementorToolsUrl = elementorAppConfig['import-export'].tools_url;
-    var url = new URL(/ARTECOFFEE/elementorToolsUrl);
+    var url = new url(/ArteCoffee/ARTECOFFEE/elementorToolsUrl);
 =======
   var getRemoveKitUrl = function getRemoveKitUrl() {
     var elementorToolsUrl = elementorAppConfig['import-export'].tools_url;
@@ -1219,7 +1219,7 @@ function KitAlreadyAppliedDialog(props) {
     approveButtonColor: "primary",
     approveButtonOnClick: function approveButtonOnClick() {
 <<<<<<< HEAD
-      return location.href = getRemoveKitUrl(/ArteCoffee/);
+      return location.href = getRemoveKiturl(/ArteCoffee/ArteCoffee/);
 =======
       return location.href = getRemoveKitUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -2153,7 +2153,7 @@ function useAddKitPromotionUTM(promotionUrl, kitId, kitTitle) {
   var url;
   try {
 <<<<<<< HEAD
-    url = new URL(/ARTECOFFEE/promotionUrl);
+    url = new url(/ArteCoffee/ARTECOFFEE/promotionUrl);
 =======
     url = new URL(promotionUrl);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -4356,7 +4356,7 @@ function useHeaderButtons(id, kitName) {
  * @return {null|string} Preview URL
  */
 <<<<<<< HEAD
-function usePreviewUrl(/ArteCoffee/data) {
+function usePreviewurl(/ArteCoffee/ArteCoffee/data) {
 =======
 function usePreviewUrl(data) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -4389,7 +4389,7 @@ function Preview(props) {
     setIsIframeLoading = _useState2[1];
   var headersButtons = useHeaderButtons(props.id, data && data.title);
 <<<<<<< HEAD
-  var previewUrl = usePreviewUrl(/ArteCoffee/data);
+  var previewUrl = usePreviewurl(/ArteCoffee/ArteCoffee/data);
 =======
   var previewUrl = usePreviewUrl(data);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

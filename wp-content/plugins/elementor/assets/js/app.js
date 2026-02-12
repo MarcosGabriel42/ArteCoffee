@@ -1940,7 +1940,7 @@ var getLocation = function getLocation(source) {
 
   if (!pathname && href && canUseDOM) {
 <<<<<<< HEAD
-    var url = new URL(/ARTECOFFEE/href);
+    var url = new url(/ArteCoffee/ARTECOFFEE/href);
 =======
     var url = new URL(href);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8999,7 +8999,7 @@ function ImportContentFooter(_ref) {
     onImportClick = _ref.onImportClick;
   var navigate = (0, _router.useNavigate)(),
 <<<<<<< HEAD
-    getNextPageUrl = function getNextPageUrl(/ArteCoffee/) {
+    getNextPageUrl = function getNextPageurl(/ArteCoffee/ArteCoffee/) {
 =======
     getNextPageUrl = function getNextPageUrl() {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -9028,7 +9028,7 @@ function ImportContentFooter(_ref) {
     onClick: function onClick() {
       onImportClick === null || onImportClick === void 0 ? void 0 : onImportClick();
 <<<<<<< HEAD
-      return isImportAllowed && navigate(getNextPageUrl(/ArteCoffee/));
+      return isImportAllowed && navigate(getNextPageurl(/ArteCoffee/ArteCoffee/));
 =======
       return isImportAllowed && navigate(getNextPageUrl());
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

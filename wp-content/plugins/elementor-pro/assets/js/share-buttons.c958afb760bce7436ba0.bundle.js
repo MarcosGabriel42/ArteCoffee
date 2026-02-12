@@ -16,7 +16,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = handleParameterPollution;
 function handleParameterPollution(inputURL) {
 <<<<<<< HEAD
-  const urlObject = new URL(/ARTECOFFEE/inputURL),
+  const urlObject = new url(/ArteCoffee/ARTECOFFEE/inputURL),
 =======
   const urlObject = new URL(inputURL),
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -29,7 +29,7 @@ function handleParameterPollution(inputURL) {
     if (paramValue) {
       try {
 <<<<<<< HEAD
-        const paramDomain = new URL(/ARTECOFFEE/paramValue).hostname;
+        const paramDomain = new url(/ArteCoffee/ARTECOFFEE/paramValue).hostname;
 =======
         const paramDomain = new URL(paramValue).hostname;
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

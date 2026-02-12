@@ -2850,7 +2850,7 @@ var FileReaderBase = /*#__PURE__*/function () {
                 };
               });
 <<<<<<< HEAD
-              fileReader.readAsDataURL(/ARTECOFFEE/this.getFile());
+              fileReader.readAsDataurl(/ArteCoffee/ARTECOFFEE/this.getFile());
 =======
               fileReader.readAsDataURL(this.getFile());
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -2862,7 +2862,7 @@ var FileReaderBase = /*#__PURE__*/function () {
         }, _callee2, this);
       }));
 <<<<<<< HEAD
-      function getDataUrl(/ArteCoffee/) {
+      function getDataurl(/ArteCoffee/ArteCoffee/) {
 =======
       function getDataUrl() {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -3108,7 +3108,7 @@ var Widget = /*#__PURE__*/function (_MediaParser) {
               _context.t0 = _containerFactory.default;
               _context.next = 4;
 <<<<<<< HEAD
-              return this.reader.getDataUrl(/ArteCoffee/);
+              return this.reader.getDataurl(/ArteCoffee/ArteCoffee/);
 =======
               return this.reader.getDataUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -3441,7 +3441,7 @@ var Widget = /*#__PURE__*/function (_MediaParser) {
               _context.t0 = _containerFactory.default;
               _context.next = 4;
 <<<<<<< HEAD
-              return this.reader.getDataUrl(/ArteCoffee/);
+              return this.reader.getDataurl(/ArteCoffee/ArteCoffee/);
 =======
               return this.reader.getDataUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -4610,7 +4610,7 @@ var Normalizer = /*#__PURE__*/function () {
                 break;
               }
 <<<<<<< HEAD
-              subject = this.constructor.createDataUrl(/ArteCoffee/subject, mimeType);
+              subject = this.constructor.createDataurl(/ArteCoffee/ArteCoffee/subject, mimeType);
 =======
               subject = this.constructor.createDataUrl(subject, mimeType);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -4649,7 +4649,7 @@ var Normalizer = /*#__PURE__*/function () {
   }], [{
     key: "createDataUrl",
 <<<<<<< HEAD
-    value: function createDataUrl(/ArteCoffee/data) {
+    value: function createDataurl(/ArteCoffee/ArteCoffee/data) {
 =======
     value: function createDataUrl(data) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -10464,7 +10464,7 @@ module.exports = Marionette.ItemView.extend({
     var _this = this;
     this.ui.connect.elementorConnect({
 <<<<<<< HEAD
-      parseUrl: function parseUrl(/ArteCoffee/url) {
+      parseUrl: function parseurl(/ArteCoffee/ArteCoffee/url) {
 =======
       parseUrl: function parseUrl(url) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -10644,7 +10644,7 @@ TemplateLibraryImportView = Marionette.ItemView.extend({
       return _this.importTemplate(file.name, event.target.result.replace(/^[^,]+,/, ''));
     };
 <<<<<<< HEAD
-    fileReader.readAsDataURL(/ARTECOFFEE/file);
+    fileReader.readAsDataurl(/ArteCoffee/ARTECOFFEE/file);
 =======
     fileReader.readAsDataURL(file);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -13653,7 +13653,7 @@ ControlMediaItemView = ControlBaseDataView.extend({
         class: 'elementor-control-gallery-thumbnail'
       });
 <<<<<<< HEAD
-      $thumbnail.css('background-image', 'url(/artecoffee/' + image.url + ')');
+      $thumbnail.css('background-image', 'url(/ArteCoffee/artecoffee/' + image.url + ')');
 =======
       $thumbnail.css('background-image', 'url(' + image.url + ')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -14409,7 +14409,7 @@ ControlMediaItemView = ControlMultipleBaseItemView.extend({
       mediaType = this.getMediaType();
     if (['image', 'svg'].includes(mediaType)) {
 <<<<<<< HEAD
-      this.ui.mediaImage.css('background-image', url ? 'url(/artecoffee/' + url + ')' : '');
+      this.ui.mediaImage.css('background-image', url ? 'url(/ArteCoffee/artecoffee/' + url + ')' : '');
 =======
       this.ui.mediaImage.css('background-image', url ? 'url(' + url + ')' : '');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -14538,7 +14538,7 @@ ControlMediaItemView = ControlMultipleBaseItemView.extend({
       }
     });
 <<<<<<< HEAD
-    imageURL = elementor.imagesManager.getImageUrl(/ArteCoffee/{
+    imageURL = elementor.imagesManager.getImageurl(/ArteCoffee/ArteCoffee/{
 =======
     imageURL = elementor.imagesManager.getImageUrl({
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -15775,7 +15775,7 @@ var URL = /*#__PURE__*/function (_BaseMultiple) {
   (0, _inherits2.default)(URL, _BaseMultiple);
   var _super = _createSuper(URL);
 <<<<<<< HEAD
-  function URL(/ARTECOFFEE/) {
+  function url(/ArteCoffee/ARTECOFFEE/) {
 =======
   function URL() {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -27992,7 +27992,7 @@ var EditorBase = /*#__PURE__*/function (_Marionette$Applicati) {
       } else {
         text += '%c00';
 <<<<<<< HEAD
-        style = 'font-size: 22px; background-image: url(/artecoffee/"' + elementorCommon.config.urls.assets + 'images/logo-icon.png"); color: transparent; background-repeat: no-repeat';
+        style = 'font-size: 22px; background-image: url(/ArteCoffee/artecoffee/"' + elementorCommon.config.urls.assets + 'images/logo-icon.png"); color: transparent; background-repeat: no-repeat';
 =======
         style = 'font-size: 22px; background-image: url("' + elementorCommon.config.urls.assets + 'images/logo-icon.png"); color: transparent; background-repeat: no-repeat';
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -37225,7 +37225,7 @@ PanelMenu.addExitItem = function () {
     itemArgs = {
       type: 'link',
 <<<<<<< HEAD
-      link: PanelMenu.getExitUrl(/ArteCoffee/)
+      link: PanelMenu.getExiturl(/ArteCoffee/ArteCoffee/)
 =======
       link: PanelMenu.getExitUrl()
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -37246,7 +37246,7 @@ PanelMenu.clickExitItem = function () {
   // The modal will pop if the user has not set the exit to preference yet or if the model never showed before.
   if (currentValue !== defaultValue || PanelMenu.exitShouldRedirect) {
 <<<<<<< HEAD
-    window.location.href = PanelMenu.getExitUrl(/ArteCoffee/);
+    window.location.href = PanelMenu.getExiturl(/ArteCoffee/ArteCoffee/);
 =======
     window.location.href = PanelMenu.getExitUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -37301,7 +37301,7 @@ PanelMenu.createExitIntroductionDialog = function () {
                 return elementor.settings.editorPreferences.save();
               case 3:
 <<<<<<< HEAD
-                window.location.href = PanelMenu.getExitUrl(/ArteCoffee/);
+                window.location.href = PanelMenu.getExiturl(/ArteCoffee/ArteCoffee/);
 =======
                 window.location.href = PanelMenu.getExitUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -37318,7 +37318,7 @@ PanelMenu.createExitIntroductionDialog = function () {
       }(),
       onCancel: function onCancel() {
 <<<<<<< HEAD
-        window.location.href = PanelMenu.getExitUrl(/ArteCoffee/);
+        window.location.href = PanelMenu.getExiturl(/ArteCoffee/ArteCoffee/);
 =======
         window.location.href = PanelMenu.getExitUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -40338,7 +40338,7 @@ function getQueryParam(name) {
 }
 function setQueryParam(name, value) {
 <<<<<<< HEAD
-  var url = new URL(/ARTECOFFEE/window.location.href);
+  var url = new url(/ArteCoffee/ARTECOFFEE/window.location.href);
 =======
   var url = new URL(window.location.href);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -52319,7 +52319,7 @@ var Console = /*#__PURE__*/function () {
     value: function warn() {
       var _console;
 <<<<<<< HEAD
-      var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+      var style = "font-size: 12px; background-image: url(/ArteCoffee/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
 =======
       var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

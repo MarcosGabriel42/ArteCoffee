@@ -703,7 +703,7 @@ class BackgroundSlideshow extends elementorModules.frontend.handlers.SwiperBase 
         $slidebg = jQuery('<div>', {
           class: slideInnerClass,
 <<<<<<< HEAD
-          style: 'background-image: url(/artecoffee/"' + slide.url + '");'
+          style: 'background-image: url(/ArteCoffee/artecoffee/"' + slide.url + '");'
 =======
           style: 'background-image: url("' + slide.url + '");'
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -971,7 +971,7 @@ class BackgroundVideo extends elementorModules.frontend.handlers.Base {
     }
     if (this.apiProvider) {
 <<<<<<< HEAD
-      videoID = this.apiProvider.getVideoIDFromURL(/ARTECOFFEE/videoLink);
+      videoID = this.apiProvider.getVideoIDFromurl(/ArteCoffee/ARTECOFFEE/videoLink);
 =======
       videoID = this.apiProvider.getVideoIDFromURL(videoLink);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1261,7 +1261,7 @@ class Shapes extends elementorModules.frontend.handlers.Base {
     return elementorFrontend.isEditMode();
   }
 <<<<<<< HEAD
-  getSvgURL(/ARTECOFFEE/shapeType, fileName) {
+  getSvgurl(/ArteCoffee/ARTECOFFEE/shapeType, fileName) {
 =======
   getSvgURL(shapeType, fileName) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1288,7 +1288,7 @@ class Shapes extends elementorModules.frontend.handlers.Base {
       fileName += '-negative';
     }
 <<<<<<< HEAD
-    const svgURL = this.getSvgURL(/ARTECOFFEE/shapeType, fileName);
+    const svgURL = this.getSvgurl(/ArteCoffee/ARTECOFFEE/shapeType, fileName);
 =======
     const svgURL = this.getSvgURL(shapeType, fileName);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1938,11 +1938,11 @@ class BaseLoader extends elementorModules.ViewModule {
   insertAPI() {
     this.elements.$firstScript.before(jQuery('<script>', {
 <<<<<<< HEAD
-      src: this.getApiURL(/ARTECOFFEE/)
+      src: this.getApiurl(/ArteCoffee/ARTECOFFEE/)
     }));
     this.setSettings('isInserted', true);
   }
-  getVideoIDFromURL(/ARTECOFFEE/url) {
+  getVideoIDFromurl(/ArteCoffee/ARTECOFFEE/url) {
 =======
       src: this.getApiURL()
     }));
@@ -1967,7 +1967,7 @@ class BaseLoader extends elementorModules.ViewModule {
     }
   }
 <<<<<<< HEAD
-  getAutoplayURL(/ARTECOFFEE/videoURL) {
+  getAutoplayurl(/ArteCoffee/ARTECOFFEE/videoURL) {
 =======
   getAutoplayURL(videoURL) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1995,7 +1995,7 @@ exports["default"] = void 0;
 var _baseLoader = _interopRequireDefault(__webpack_require__(/*! ./base-loader */ "../assets/dev/js/frontend/utils/video-api/base-loader.js"));
 class VimeoLoader extends _baseLoader.default {
 <<<<<<< HEAD
-  getApiURL(/ARTECOFFEE/) {
+  getApiurl(/ArteCoffee/ARTECOFFEE/) {
 =======
   getApiURL() {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -2011,8 +2011,8 @@ class VimeoLoader extends _baseLoader.default {
     return Vimeo;
   }
 <<<<<<< HEAD
-  getAutoplayURL(/ARTECOFFEE/videoURL) {
-    videoURL = super.getAutoplayURL(/ARTECOFFEE/videoURL);
+  getAutoplayurl(/ArteCoffee/ARTECOFFEE/videoURL) {
+    videoURL = super.getAutoplayurl(/ArteCoffee/ARTECOFFEE/videoURL);
 =======
   getAutoplayURL(videoURL) {
     videoURL = super.getAutoplayURL(videoURL);
@@ -2044,7 +2044,7 @@ exports["default"] = void 0;
 var _baseLoader = _interopRequireDefault(__webpack_require__(/*! ./base-loader */ "../assets/dev/js/frontend/utils/video-api/base-loader.js"));
 class YoutubeLoader extends _baseLoader.default {
 <<<<<<< HEAD
-  getApiURL(/ARTECOFFEE/) {
+  getApiurl(/ArteCoffee/ARTECOFFEE/) {
 =======
   getApiURL() {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

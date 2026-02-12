@@ -247,7 +247,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = handleParameterPollution;
 function handleParameterPollution(inputURL) {
 <<<<<<< HEAD
-  const urlObject = new URL(/ARTECOFFEE/inputURL),
+  const urlObject = new url(/ArteCoffee/ARTECOFFEE/inputURL),
 =======
   const urlObject = new URL(inputURL),
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -260,7 +260,7 @@ function handleParameterPollution(inputURL) {
     if (paramValue) {
       try {
 <<<<<<< HEAD
-        const paramDomain = new URL(/ARTECOFFEE/paramValue).hostname;
+        const paramDomain = new url(/ArteCoffee/ARTECOFFEE/paramValue).hostname;
 =======
         const paramDomain = new URL(paramValue).hostname;
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -3313,7 +3313,7 @@ class BaseFilterFrontendModule extends elementorModules.Module {
   }
   updateURLQueryString(filterId) {
 <<<<<<< HEAD
-    const currentUrl = new URL(/ARTECOFFEE/window.location.href),
+    const currentUrl = new url(/ArteCoffee/ARTECOFFEE/window.location.href),
 =======
     const currentUrl = new URL(window.location.href),
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8451,7 +8451,7 @@ class Base extends elementorModules.frontend.handlers.Base {
     const selectors = this.getSettings('selectors'),
       wpHttpRefererInputs = this.$element.find(selectors.wpHttpRefererInputs),
 <<<<<<< HEAD
-      url = new URL(/ARTECOFFEE/document.location);
+      url = new url(/ArteCoffee/ARTECOFFEE/document.location);
 =======
       url = new URL(document.location);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -9618,7 +9618,7 @@ exports["default"] = PurchaseSummaryHandler;
         },
 
 <<<<<<< HEAD
-        createScriptURL(/ARTECOFFEE/scriptUrl) {
+        createScripturl(/ArteCoffee/ARTECOFFEE/scriptUrl) {
 =======
         createScriptURL(scriptUrl) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -10659,7 +10659,7 @@ exports["default"] = PurchaseSummaryHandler;
               case 'TrustedScriptURL':
                 {
 <<<<<<< HEAD
-                  value = trustedTypesPolicy.createScriptURL(/ARTECOFFEE/value);
+                  value = trustedTypesPolicy.createScripturl(/ArteCoffee/ARTECOFFEE/value);
 =======
                   value = trustedTypesPolicy.createScriptURL(value);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

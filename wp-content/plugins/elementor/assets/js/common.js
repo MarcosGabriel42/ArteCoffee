@@ -3602,7 +3602,7 @@ var _default = /*#__PURE__*/function (_elementorModules$Vie) {
             });
           },
 <<<<<<< HEAD
-          parseUrl: function parseUrl(/ArteCoffee/url) {
+          parseUrl: function parseurl(/ArteCoffee/ArteCoffee/url) {
 =======
           parseUrl: function parseUrl(url) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -3617,7 +3617,7 @@ var _default = /*#__PURE__*/function (_elementorModules$Vie) {
             target: '_blank',
             rel: 'opener',
 <<<<<<< HEAD
-            href: settings.parseUrl(/ArteCoffee/$this.attr('href') + '&mode=popup&callback_id=' + callbackId)
+            href: settings.parseurl(/ArteCoffee/ArteCoffee/$this.attr('href') + '&mode=popup&callback_id=' + callbackId)
 =======
             href: settings.parseUrl($this.attr('href') + '&mode=popup&callback_id=' + callbackId)
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -6618,7 +6618,7 @@ var Console = /*#__PURE__*/function () {
     value: function warn() {
       var _console;
 <<<<<<< HEAD
-      var style = "font-size: 12px; background-image: url(/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+      var style = "font-size: 12px; background-image: url(/ArteCoffee/artecoffee/\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
 =======
       var style = "font-size: 12px; background-image: url(\"".concat(elementorWebCliConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

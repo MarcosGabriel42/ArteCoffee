@@ -116,7 +116,7 @@
 		return draw( node, options || {} )
 			.then( function ( canvas ) {
 <<<<<<< HEAD
-				return canvas.toDataURL(/ARTECOFFEE/);
+				return canvas.toDataurl(/ArteCoffee/ARTECOFFEE/);
 =======
 				return canvas.toDataURL();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -133,7 +133,7 @@
 		return draw( node, options )
 			.then( function ( canvas ) {
 <<<<<<< HEAD
-				return canvas.toDataURL(/ARTECOFFEE/ 'image/jpeg', options.quality || 1.0 );
+				return canvas.toDataurl(/ArteCoffee/ARTECOFFEE/ 'image/jpeg', options.quality || 1.0 );
 =======
 				return canvas.toDataURL( 'image/jpeg', options.quality || 1.0 );
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -204,7 +204,7 @@
 
 		function makeNodeCopy( node ) {
 <<<<<<< HEAD
-			if ( node instanceof HTMLCanvasElement ) return util.makeImage( node.toDataURL(/ARTECOFFEE/) );
+			if ( node instanceof HTMLCanvasElement ) return util.makeImage( node.toDataurl(/ArteCoffee/ARTECOFFEE/) );
 =======
 			if ( node instanceof HTMLCanvasElement ) return util.makeImage( node.toDataURL() );
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -418,7 +418,7 @@
 		}
 
 <<<<<<< HEAD
-		function isDataUrl(/ArteCoffee/ url ) {
+		function isDataurl(/ArteCoffee/ArteCoffee/ url ) {
 =======
 		function isDataUrl( url ) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -428,7 +428,7 @@
 		function toBlob( canvas ) {
 			return new Promise( function ( resolve ) {
 <<<<<<< HEAD
-				var binaryString = window.atob( canvas.toDataURL(/ARTECOFFEE/).split( ',' )[ 1 ] );
+				var binaryString = window.atob( canvas.toDataurl(/ArteCoffee/ARTECOFFEE/).split( ',' )[ 1 ] );
 =======
 				var binaryString = window.atob( canvas.toDataURL().split( ',' )[ 1 ] );
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -454,7 +454,7 @@
 		}
 
 <<<<<<< HEAD
-		function resolveUrl(/ArteCoffee/ url, baseUrl ) {
+		function resolveurl(/ArteCoffee/ArteCoffee/ url, baseUrl ) {
 =======
 		function resolveUrl( url, baseUrl ) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -537,7 +537,7 @@
 						resolve( content );
 					};
 <<<<<<< HEAD
-					encoder.readAsDataURL(/ARTECOFFEE/ request.response );
+					encoder.readAsDataurl(/ArteCoffee/ARTECOFFEE/ request.response );
 =======
 					encoder.readAsDataURL( request.response );
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -559,7 +559,7 @@
 		}
 
 <<<<<<< HEAD
-		function dataAsUrl(/ArteCoffee/ content, type ) {
+		function dataAsurl(/ArteCoffee/ArteCoffee/ content, type ) {
 =======
 		function dataAsUrl( content, type ) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -633,7 +633,7 @@
 			}
 			return result.filter( function ( url ) {
 <<<<<<< HEAD
-				return ! util.isDataUrl(/ArteCoffee/ url );
+				return ! util.isDataurl(/ArteCoffee/ArteCoffee/ url );
 =======
 				return ! util.isDataUrl( url );
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -644,11 +644,11 @@
 			return Promise.resolve( url )
 				.then( function ( url ) {
 <<<<<<< HEAD
-					return baseUrl ? util.resolveUrl(/ArteCoffee/ url, baseUrl ) : url;
+					return baseUrl ? util.resolveurl(/ArteCoffee/ArteCoffee/ url, baseUrl ) : url;
 				} )
 				.then( get || util.getAndEncode )
 				.then( function ( data ) {
-					return util.dataAsUrl(/ArteCoffee/ data, util.mimeType( url ) );
+					return util.dataAsurl(/ArteCoffee/ArteCoffee/ data, util.mimeType( url ) );
 =======
 					return baseUrl ? util.resolveUrl( url, baseUrl ) : url;
 				} )
@@ -768,7 +768,7 @@
 
 			function inline( get ) {
 <<<<<<< HEAD
-				if ( util.isDataUrl(/ArteCoffee/ element.src ) ) return Promise.resolve();
+				if ( util.isDataurl(/ArteCoffee/ArteCoffee/ element.src ) ) return Promise.resolve();
 =======
 				if ( util.isDataUrl( element.src ) ) return Promise.resolve();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -777,7 +777,7 @@
 					.then( get || util.getAndEncode )
 					.then( function ( data ) {
 <<<<<<< HEAD
-						return util.dataAsUrl(/ArteCoffee/ data, util.mimeType( element.src ) );
+						return util.dataAsurl(/ArteCoffee/ArteCoffee/ data, util.mimeType( element.src ) );
 =======
 						return util.dataAsUrl( data, util.mimeType( element.src ) );
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

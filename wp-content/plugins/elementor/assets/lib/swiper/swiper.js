@@ -6943,7 +6943,7 @@
           if (typeof swiper === 'undefined' || swiper === null || !swiper || (swiper && !swiper.params) || swiper.destroyed) { return; }
           if (background) {
 <<<<<<< HEAD
-            $imageEl.css('background-image', ("url(/artecoffee/\"" + background + "\")"));
+            $imageEl.css('background-image', ("url(/ArteCoffee/artecoffee/\"" + background + "\")"));
 =======
             $imageEl.css('background-image', ("url(\"" + background + "\")"));
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

@@ -1061,7 +1061,7 @@ class _default extends elementorModules.ViewModule {
     $button.on('click', event => {
       event.preventDefault();
 <<<<<<< HEAD
-      this.testKitUrl(/ArteCoffee/);
+      this.testKiturl(/ArteCoffee/ArteCoffee/);
 =======
       this.testKitUrl();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -1086,7 +1086,7 @@ class _default extends elementorModules.ViewModule {
     }
   }
 <<<<<<< HEAD
-  testKitUrl(/ArteCoffee/) {
+  testKiturl(/ArteCoffee/ArteCoffee/) {
 =======
   testKitUrl() {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

@@ -2252,7 +2252,7 @@
 		try {
 			ctx.drawImage(img, 0, 0);
 <<<<<<< HEAD
-			canvas.toDataURL(/ARTECOFFEE/);
+			canvas.toDataurl(/ArteCoffee/ARTECOFFEE/);
 =======
 			canvas.toDataURL();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -2278,7 +2278,7 @@
 		ctx.fillRect(0, 0, size, size);
 		var img = new Image();
 <<<<<<< HEAD
-		var greenImageSrc = canvas.toDataURL(/ARTECOFFEE/);
+		var greenImageSrc = canvas.toDataurl(/ArteCoffee/ARTECOFFEE/);
 =======
 		var greenImageSrc = canvas.toDataURL();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -2294,7 +2294,7 @@
 				ctx.fillRect(0, 0, size, size);
 				var node = document.createElement('div');
 <<<<<<< HEAD
-				node.style.backgroundImage = "url(/artecoffee/" + greenImageSrc + ")";
+				node.style.backgroundImage = "url(/ArteCoffee/artecoffee/" + greenImageSrc + ")";
 =======
 				node.style.backgroundImage = "url(" + greenImageSrc + ")";
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -2578,7 +2578,7 @@
 							reader_1.addEventListener('load', function () { return resolve(reader_1.result); }, false);
 							reader_1.addEventListener('error', function (e) { return reject(e); }, false);
 <<<<<<< HEAD
-							reader_1.readAsDataURL(/ARTECOFFEE/xhr.response);
+							reader_1.readAsDataurl(/ArteCoffee/ARTECOFFEE/xhr.response);
 =======
 							reader_1.readAsDataURL(xhr.response);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -5127,7 +5127,7 @@
 				var img = canvas.ownerDocument.createElement('img');
 				try {
 <<<<<<< HEAD
-					img.src = canvas.toDataURL(/ARTECOFFEE/);
+					img.src = canvas.toDataurl(/ArteCoffee/ARTECOFFEE/);
 =======
 					img.src = canvas.toDataURL();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -5203,7 +5203,7 @@
                                 iframeCanvas.src == 'data:,' ? resolve(canvas) : reject(event);
                             };
 <<<<<<< HEAD
-                            iframeCanvas.src = canvas.toDataURL(/ARTECOFFEE/);
+                            iframeCanvas.src = canvas.toDataurl(/ArteCoffee/ARTECOFFEE/);
 =======
                             iframeCanvas.src = canvas.toDataURL();
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

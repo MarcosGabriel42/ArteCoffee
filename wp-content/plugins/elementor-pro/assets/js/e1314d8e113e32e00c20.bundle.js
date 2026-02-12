@@ -155,10 +155,10 @@ class TemplateQueryControl extends _queryControl.default {
       await this.switchDocument(templateID);
     } else {
 <<<<<<< HEAD
-      window.open(this.getThemeBuilderURL(/ARTECOFFEE/templateID), '_blank');
+      window.open(this.getThemeBuilderurl(/ArteCoffee/ARTECOFFEE/templateID), '_blank');
     }
   }
-  getThemeBuilderURL(/ARTECOFFEE/templateID) {
+  getThemeBuilderurl(/ArteCoffee/ARTECOFFEE/templateID) {
 =======
       window.open(this.getThemeBuilderURL(templateID), '_blank');
     }

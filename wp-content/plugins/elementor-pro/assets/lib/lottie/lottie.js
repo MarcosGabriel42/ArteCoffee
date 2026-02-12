@@ -1953,7 +1953,7 @@ License: MIT
 						s.setAttribute('f-family', fontArr[i].fFamily);
 						s.type = "text/css";
 <<<<<<< HEAD
-						s.innerHTML = "@font-face {" + "font-family: "+fontArr[i].fFamily+"; font-style: normal; src: url(/artecoffee/'"+fontArr[i].fPath+"');}";
+						s.innerHTML = "@font-face {" + "font-family: "+fontArr[i].fFamily+"; font-style: normal; src: url(/ArteCoffee/artecoffee/'"+fontArr[i].fPath+"');}";
 =======
 						s.innerHTML = "@font-face {" + "font-family: "+fontArr[i].fFamily+"; font-style: normal; src: url('"+fontArr[i].fPath+"');}";
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -6059,7 +6059,7 @@ License: MIT
 		maskElement.setAttribute('id', maskId);
 		maskElement.appendChild(rect);
 <<<<<<< HEAD
-		this.layerElement.setAttribute("clip-path", "url(/artecoffee/" + locationHref + "#"+maskId+")");
+		this.layerElement.setAttribute("clip-path", "url(/ArteCoffee/artecoffee/" + locationHref + "#"+maskId+")");
 =======
 		this.layerElement.setAttribute("clip-path", "url(" + locationHref + "#"+maskId+")");
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -6922,7 +6922,7 @@ License: MIT
 				mask.appendChild(path);
 				defs.appendChild(mask);
 <<<<<<< HEAD
-				g.setAttribute('mask','url(/artecoffee/' + locationHref + '#'+layerId+'_'+count+')');
+				g.setAttribute('mask','url(/ArteCoffee/artecoffee/' + locationHref + '#'+layerId+'_'+count+')');
 =======
 				g.setAttribute('mask','url(' + locationHref + '#'+layerId+'_'+count+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -6958,7 +6958,7 @@ License: MIT
 		if(count > 0){
 			this.maskElement.setAttribute('id', layerId);
 <<<<<<< HEAD
-			this.element.maskedElement.setAttribute(maskRef, "url(/artecoffee/" + locationHref + "#" + layerId + ")");
+			this.element.maskedElement.setAttribute(maskRef, "url(/ArteCoffee/artecoffee/" + locationHref + "#" + layerId + ")");
 =======
 			this.element.maskedElement.setAttribute(maskRef, "url(" + locationHref + "#" + layerId + ")");
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -6994,7 +6994,7 @@ License: MIT
 						if(this.storedData[i].lastOperator !== 'erode'){
 							this.storedData[i].lastOperator = 'erode';
 <<<<<<< HEAD
-							this.storedData[i].elem.setAttribute('filter','url(/artecoffee/' + locationHref + '#'+this.storedData[i].filterId+')');
+							this.storedData[i].elem.setAttribute('filter','url(/ArteCoffee/artecoffee/' + locationHref + '#'+this.storedData[i].filterId+')');
 =======
 							this.storedData[i].elem.setAttribute('filter','url(' + locationHref + '#'+this.storedData[i].filterId+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -7495,7 +7495,7 @@ License: MIT
 			stops.push(stop);
 		}
 <<<<<<< HEAD
-		pathElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(/artecoffee/' + locationHref + '#'+gradientId+')');
+		pathElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(/ArteCoffee/artecoffee/' + locationHref + '#'+gradientId+')');
 =======
 		pathElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(' + locationHref + '#'+gradientId+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -7526,7 +7526,7 @@ License: MIT
 				stops.push(stop);
 			}
 <<<<<<< HEAD
-			maskElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(/artecoffee/' + locationHref + '#'+opacityId+')');
+			maskElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(/ArteCoffee/artecoffee/' + locationHref + '#'+opacityId+')');
 =======
 			maskElement.setAttribute( data.ty === 'gf' ? 'fill':'stroke','url(' + locationHref + '#'+opacityId+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -7970,7 +7970,7 @@ License: MIT
 						layerElementParent = gg;
 						masker.appendChild(gg);
 <<<<<<< HEAD
-						gg.setAttribute('filter','url(/artecoffee/' + locationHref + '#' + filId + ')');
+						gg.setAttribute('filter','url(/ArteCoffee/artecoffee/' + locationHref + '#' + filId + ')');
 =======
 						gg.setAttribute('filter','url(' + locationHref + '#' + filId + ')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8009,7 +8009,7 @@ License: MIT
 					alphaRect.setAttribute('fill','#ffffff');
 					alphaRect.setAttribute('opacity','0');
 <<<<<<< HEAD
-					maskGrouper.setAttribute('filter', 'url(/artecoffee/' + locationHref + '#'+filId+')');
+					maskGrouper.setAttribute('filter', 'url(/ArteCoffee/artecoffee/' + locationHref + '#'+filId+')');
 =======
 					maskGrouper.setAttribute('filter', 'url(' + locationHref + '#'+filId+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8053,7 +8053,7 @@ License: MIT
 				if (this.checkMasks()) {
 					var cpGroup = createNS('g');
 <<<<<<< HEAD
-					cpGroup.setAttribute('clip-path','url(/artecoffee/' + locationHref + '#'+clipId + ')');
+					cpGroup.setAttribute('clip-path','url(/ArteCoffee/artecoffee/' + locationHref + '#'+clipId + ')');
 =======
 					cpGroup.setAttribute('clip-path','url(' + locationHref + '#'+clipId + ')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8066,7 +8066,7 @@ License: MIT
 					}
 				} else {
 <<<<<<< HEAD
-					this.layerElement.setAttribute('clip-path','url(/artecoffee/' + locationHref + '#'+clipId+')');
+					this.layerElement.setAttribute('clip-path','url(/ArteCoffee/artecoffee/' + locationHref + '#'+clipId+')');
 =======
 					this.layerElement.setAttribute('clip-path','url(' + locationHref + '#'+clipId+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8106,7 +8106,7 @@ License: MIT
 				return;
 			}
 <<<<<<< HEAD
-			this.matteElement.setAttribute("mask", "url(/artecoffee/" + locationHref + "#" + id + ")");
+			this.matteElement.setAttribute("mask", "url(/ArteCoffee/artecoffee/" + locationHref + "#" + id + ")");
 =======
 			this.matteElement.setAttribute("mask", "url(" + locationHref + "#" + id + ")");
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8705,7 +8705,7 @@ This method searches for multiple shapes that affect a single element and one of
 				this.globalData.defs.appendChild(elementData.ms);
 				this.globalData.defs.appendChild(elementData.of);
 <<<<<<< HEAD
-				pathElement.setAttribute('mask','url(/artecoffee/' + locationHref + '#' + elementData.maskId + ')');
+				pathElement.setAttribute('mask','url(/ArteCoffee/artecoffee/' + locationHref + '#' + elementData.maskId + ')');
 =======
 				pathElement.setAttribute('mask','url(' + locationHref + '#' + elementData.maskId + ')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -9064,7 +9064,7 @@ This method searches for multiple shapes that affect a single element and one of
 			this.elem.globalData.defs.appendChild(mask);
 			var g = createNS('g');
 <<<<<<< HEAD
-			g.setAttribute('mask','url(/artecoffee/' + locationHref + '#'+id+')');
+			g.setAttribute('mask','url(/ArteCoffee/artecoffee/' + locationHref + '#'+id+')');
 =======
 			g.setAttribute('mask','url(' + locationHref + '#'+id+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -9494,7 +9494,7 @@ This method searches for multiple shapes that affect a single element and one of
 		if(count){
 			elem.globalData.defs.appendChild(fil);
 <<<<<<< HEAD
-			elem.layerElement.setAttribute('filter','url(/artecoffee/' + locationHref + '#'+filId+')');
+			elem.layerElement.setAttribute('filter','url(/ArteCoffee/artecoffee/' + locationHref + '#'+filId+')');
 =======
 			elem.layerElement.setAttribute('filter','url(' + locationHref + '#'+filId+')');
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

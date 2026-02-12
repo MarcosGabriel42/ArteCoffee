@@ -297,9 +297,9 @@ var Note = /*#__PURE__*/function (_BaseModel) {
   }, {
     key: "getURL",
 <<<<<<< HEAD
-    value: function getURL(/ARTECOFFEE/) {
+    value: function geturl(/ArteCoffee/ARTECOFFEE/) {
       var id = this.isReply() ? this.parentId : this.id;
-      return this.constructor.getURL(/ARTECOFFEE/id);
+      return this.constructor.geturl(/ArteCoffee/ARTECOFFEE/id);
 =======
     value: function getURL() {
       var id = this.isReply() ? this.parentId : this.id;
@@ -385,7 +385,7 @@ var Note = /*#__PURE__*/function (_BaseModel) {
   }, {
     key: "getURL",
 <<<<<<< HEAD
-    value: function getURL(/ARTECOFFEE/id) {
+    value: function geturl(/ArteCoffee/ARTECOFFEE/id) {
 =======
     value: function getURL(id) {
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -640,7 +640,7 @@ var CopyLink = /*#__PURE__*/function (_$e$modules$CommandBa) {
     key: "apply",
     value: function apply(args) {
 <<<<<<< HEAD
-      return (0,_services_copy_to_clipboard__WEBPACK_IMPORTED_MODULE_6__.copyToClipboard)(_app_models_note__WEBPACK_IMPORTED_MODULE_5__["default"].getURL(/ARTECOFFEE/args.id));
+      return (0,_services_copy_to_clipboard__WEBPACK_IMPORTED_MODULE_6__.copyToClipboard)(_app_models_note__WEBPACK_IMPORTED_MODULE_5__["default"].geturl(/ArteCoffee/ARTECOFFEE/args.id));
 =======
       return (0,_services_copy_to_clipboard__WEBPACK_IMPORTED_MODULE_6__.copyToClipboard)(_app_models_note__WEBPACK_IMPORTED_MODULE_5__["default"].getURL(args.id));
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

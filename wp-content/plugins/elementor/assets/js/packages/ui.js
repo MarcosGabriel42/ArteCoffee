@@ -14860,7 +14860,7 @@ const CardMedia = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(fun
   const isMediaComponent = MEDIA_COMPONENTS.indexOf(component) !== -1;
   const composedStyle = !isMediaComponent && image ? (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
 <<<<<<< HEAD
-    backgroundImage: `url(/artecoffee/"${image}")`
+    backgroundImage: `url(/ArteCoffee/artecoffee/"${image}")`
 =======
     backgroundImage: `url("${image}")`
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

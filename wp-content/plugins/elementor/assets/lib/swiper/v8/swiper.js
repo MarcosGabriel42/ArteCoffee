@@ -7761,7 +7761,7 @@
 
           if (background) {
 <<<<<<< HEAD
-            $imageEl.css('background-image', `url(/artecoffee/"${background}")`);
+            $imageEl.css('background-image', `url(/ArteCoffee/artecoffee/"${background}")`);
 =======
             $imageEl.css('background-image', `url("${background}")`);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8576,7 +8576,7 @@
 
       if (urlOverride) {
 <<<<<<< HEAD
-        location = new URL(/ARTECOFFEE/urlOverride);
+        location = new url(/ArteCoffee/ARTECOFFEE/urlOverride);
 =======
         location = new URL(urlOverride);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
@@ -8601,7 +8601,7 @@
 
       if (swiper.params.url) {
 <<<<<<< HEAD
-        location = new URL(/ARTECOFFEE/swiper.params.url);
+        location = new url(/ArteCoffee/ARTECOFFEE/swiper.params.url);
 =======
         location = new URL(swiper.params.url);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

@@ -1030,7 +1030,7 @@ var getLocation = function getLocation(source) {
 
   if (!pathname && href && canUseDOM) {
 <<<<<<< HEAD
-    var url = new URL(/ARTECOFFEE/href);
+    var url = new url(/ArteCoffee/ARTECOFFEE/href);
 =======
     var url = new URL(href);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725

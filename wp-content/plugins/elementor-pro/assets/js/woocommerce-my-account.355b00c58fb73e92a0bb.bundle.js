@@ -126,7 +126,7 @@ class Base extends elementorModules.frontend.handlers.Base {
     const selectors = this.getSettings('selectors'),
       wpHttpRefererInputs = this.$element.find(selectors.wpHttpRefererInputs),
 <<<<<<< HEAD
-      url = new URL(/ARTECOFFEE/document.location);
+      url = new url(/ArteCoffee/ARTECOFFEE/document.location);
 =======
       url = new URL(document.location);
 >>>>>>> d38dc6b936a27059fcc6351c167d94b09e330725
